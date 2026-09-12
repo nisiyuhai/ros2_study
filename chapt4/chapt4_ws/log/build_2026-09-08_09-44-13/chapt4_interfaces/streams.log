@@ -1,0 +1,34 @@
+[0.029s] Invoking command in '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces
+[0.716s] -- The C compiler identification is GNU 13.3.0
+[0.989s] -- The CXX compiler identification is GNU 13.3.0
+[1.025s] -- Detecting C compiler ABI info
+[1.183s] -- Detecting C compiler ABI info - done
+[1.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.198s] -- Detecting C compile features
+[1.200s] -- Detecting C compile features - done
+[1.218s] -- Detecting CXX compiler ABI info
+[1.380s] -- Detecting CXX compiler ABI info - done
+[1.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.389s] -- Detecting CXX compile features
+[1.390s] -- Detecting CXX compile features - done
+[1.414s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.598s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.808s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.808s]   By not providing "Findsensr_mosgs.cmake" in CMAKE_MODULE_PATH this project
+[1.809s]   has asked CMake to find a package configuration file provided by
+[1.809s]   "sensr_mosgs", but CMake did not find one.
+[1.809s] 
+[1.809s]   Could not find a package configuration file provided by "sensr_mosgs" with
+[1.809s]   any of the following names:
+[1.809s] 
+[1.810s]     sensr_mosgsConfig.cmake
+[1.810s]     sensr_mosgs-config.cmake
+[1.810s] 
+[1.810s]   Add the installation prefix of "sensr_mosgs" to CMAKE_PREFIX_PATH or set
+[1.810s]   "sensr_mosgs_DIR" to a directory containing one of the above files.  If
+[1.810s]   "sensr_mosgs" provides a separate development package or SDK, be sure it
+[1.810s]   has been installed.
+[1.810s] 
+[1.810s] [0m
+[1.810s] -- Configuring incomplete, errors occurred!
+[1.816s] Invoked command in '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt4/chapt4_ws/src/chapt4_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces

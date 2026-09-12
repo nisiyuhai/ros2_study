@@ -1,0 +1,22 @@
+[1.785s] Invoking command in '/home/zzs/chapt3/topic_ws/src/demo_cpp_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_ws/build/demo_cpp_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_cpp_topic build --build-base /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build install --record /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/install.log --install-scripts $base/lib/demo_cpp_topic --single-version-externally-managed install_data
+[2.325s] running egg_info
+[2.358s] writing ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/PKG-INFO
+[2.359s] writing dependency_links to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/dependency_links.txt
+[2.359s] writing entry points to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/entry_points.txt
+[2.359s] writing requirements to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/requires.txt
+[2.360s] writing top-level names to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/top_level.txt
+[2.405s] reading manifest file '../../build/demo_cpp_topic/demo_cpp_topic.egg-info/SOURCES.txt'
+[2.405s] adding license file 'LICENSE'
+[2.406s] writing manifest file '../../build/demo_cpp_topic/demo_cpp_topic.egg-info/SOURCES.txt'
+[2.406s] running build
+[2.407s] running build_py
+[2.411s] running install
+[2.419s] running install_lib
+[2.461s] running install_data
+[2.462s] running install_egg_info
+[2.495s] removing '/home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[2.497s] Copying ../../build/demo_cpp_topic/demo_cpp_topic.egg-info to /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic-0.0.0-py3.12.egg-info
+[2.500s] running install_scripts
+[2.678s] Installing turtle_circle script to /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic
+[2.678s] writing list of installed files to '/home/zzs/chapt3/topic_ws/build/demo_cpp_topic/install.log'
+[2.718s] Invoked command in '/home/zzs/chapt3/topic_ws/src/demo_cpp_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_ws/build/demo_cpp_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_cpp_topic build --build-base /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build install --record /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/install.log --install-scripts $base/lib/demo_cpp_topic --single-version-externally-managed install_data

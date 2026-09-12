@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_my_client = turtle_my_service.turtle_my_client:main
+turtle_my_service = turtle_my_service.turtle_my_service:main

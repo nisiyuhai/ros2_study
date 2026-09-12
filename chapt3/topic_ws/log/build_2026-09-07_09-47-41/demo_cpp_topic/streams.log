@@ -1,0 +1,38 @@
+[2.462s] Invoking command in '/home/zzs/chapt3/topic_ws/src/demo_cpp_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_ws/build/demo_cpp_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_cpp_topic build --build-base /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build install --record /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/install.log --install-scripts $base/lib/demo_cpp_topic --single-version-externally-managed install_data
+[2.760s] running egg_info
+[2.760s] creating ../../build/demo_cpp_topic/demo_cpp_topic.egg-info
+[2.783s] writing ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/PKG-INFO
+[2.784s] writing dependency_links to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/dependency_links.txt
+[2.785s] writing entry points to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/entry_points.txt
+[2.787s] writing requirements to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/requires.txt
+[2.787s] writing top-level names to ../../build/demo_cpp_topic/demo_cpp_topic.egg-info/top_level.txt
+[2.787s] writing manifest file '../../build/demo_cpp_topic/demo_cpp_topic.egg-info/SOURCES.txt'
+[2.826s] reading manifest file '../../build/demo_cpp_topic/demo_cpp_topic.egg-info/SOURCES.txt'
+[2.826s] adding license file 'LICENSE'
+[2.826s] writing manifest file '../../build/demo_cpp_topic/demo_cpp_topic.egg-info/SOURCES.txt'
+[2.828s] running build
+[2.828s] running build_py
+[2.828s] creating /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build
+[2.828s] creating /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build/lib
+[2.828s] creating /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build/lib/demo_cpp_topic
+[2.828s] copying demo_cpp_topic/turtle_circle.py -> /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build/lib/demo_cpp_topic
+[2.829s] copying demo_cpp_topic/__init__.py -> /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build/lib/demo_cpp_topic
+[2.831s] running install
+[2.835s] running install_lib
+[2.857s] creating /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic
+[2.858s] copying /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build/lib/demo_cpp_topic/turtle_circle.py -> /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic
+[2.859s] copying /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build/lib/demo_cpp_topic/__init__.py -> /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic
+[2.860s] byte-compiling /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic/turtle_circle.py to turtle_circle.cpython-312.pyc
+[2.860s] byte-compiling /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic/__init__.py to __init__.cpython-312.pyc
+[2.860s] running install_data
+[2.861s] creating /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index
+[2.861s] creating /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index
+[2.862s] creating /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages
+[2.866s] copying resource/demo_cpp_topic -> /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages
+[2.866s] copying package.xml -> /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic
+[2.866s] running install_egg_info
+[2.897s] Copying ../../build/demo_cpp_topic/demo_cpp_topic.egg-info to /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages/demo_cpp_topic-0.0.0-py3.12.egg-info
+[2.900s] running install_scripts
+[3.215s] Installing turtle_circle script to /home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic
+[3.218s] writing list of installed files to '/home/zzs/chapt3/topic_ws/build/demo_cpp_topic/install.log'
+[3.331s] Invoked command in '/home/zzs/chapt3/topic_ws/src/demo_cpp_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_ws/build/demo_cpp_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_ws/install/demo_cpp_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_cpp_topic build --build-base /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/build install --record /home/zzs/chapt3/topic_ws/build/demo_cpp_topic/install.log --install-scripts $base/lib/demo_cpp_topic --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[0.025s] Invoking command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces
+[0.349s] -- The C compiler identification is GNU 13.3.0
+[1.441s] -- The CXX compiler identification is GNU 13.3.0
+[1.571s] -- Detecting C compiler ABI info
+[1.765s] -- Detecting C compiler ABI info - done
+[1.775s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.776s] -- Detecting C compile features
+[1.778s] -- Detecting C compile features - done
+[1.804s] -- Detecting CXX compiler ABI info
+[1.959s] -- Detecting CXX compiler ABI info - done
+[1.969s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.969s] -- Detecting CXX compile features
+[1.970s] -- Detecting CXX compile features - done
+[1.991s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.197s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.419s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[2.419s]   By not providing "Findbuiltin.cmake" in CMAKE_MODULE_PATH this project has
+[2.419s]   asked CMake to find a package configuration file provided by "builtin", but
+[2.419s]   CMake did not find one.
+[2.420s] 
+[2.420s]   Could not find a package configuration file provided by "builtin" with any
+[2.420s]   of the following names:
+[2.420s] 
+[2.420s]     builtinConfig.cmake
+[2.420s]     builtin-config.cmake
+[2.420s] 
+[2.420s]   Add the installation prefix of "builtin" to CMAKE_PREFIX_PATH or set
+[2.420s]   "builtin_DIR" to a directory containing one of the above files.  If
+[2.420s]   "builtin" provides a separate development package or SDK, be sure it has
+[2.420s]   been installed.
+[2.420s] 
+[2.420s] [0m
+[2.420s] -- Configuring incomplete, errors occurred!
+[2.428s] Invoked command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces

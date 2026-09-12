@@ -1,0 +1,163 @@
+[0.048s] Invoking command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces -- -j2 -l2
+[0.340s] [  2%] Built target turtle_my_interfaces__rs
+[0.378s] [  5%] Built target turtle_my_interfaces__rosidl_generator_type_description
+[0.430s] [  5%] Built target ament_cmake_python_copy_turtle_my_interfaces
+[0.479s] [ 20%] Built target turtle_my_interfaces__rosidl_generator_c
+[0.516s] [ 22%] Built target turtle_my_interfaces__cpp
+[0.793s] running egg_info
+[0.812s] writing turtle_my_interfaces.egg-info/PKG-INFO
+[0.815s] writing dependency_links to turtle_my_interfaces.egg-info/dependency_links.txt
+[0.817s] writing top-level names to turtle_my_interfaces.egg-info/top_level.txt
+[0.874s] reading manifest file 'turtle_my_interfaces.egg-info/SOURCES.txt'
+[0.874s] writing manifest file 'turtle_my_interfaces.egg-info/SOURCES.txt'
+[0.908s] [ 22%] Built target ament_cmake_python_build_turtle_my_interfaces_egg
+[0.965s] [ 31%] Built target turtle_my_interfaces__rosidl_typesupport_fastrtps_c
+[1.001s] [ 40%] Built target turtle_my_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.045s] [ 48%] Built target turtle_my_interfaces__rosidl_typesupport_introspection_c
+[1.081s] [ 57%] Built target turtle_my_interfaces__rosidl_typesupport_c
+[1.121s] [ 65%] Built target turtle_my_interfaces__rosidl_typesupport_introspection_cpp
+[1.162s] [ 74%] Built target turtle_my_interfaces__rosidl_typesupport_cpp
+[1.202s] [ 74%] Built target turtle_my_interfaces
+[1.245s] [ 77%] Built target turtle_my_interfaces__py
+[1.290s] [ 82%] Built target turtle_my_interfaces__rosidl_generator_py
+[1.408s] [ 88%] Built target turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c
+[1.597s] [ 94%] Built target turtle_my_interfaces_s__rosidl_typesupport_introspection_c
+[1.690s] [100%] Built target turtle_my_interfaces_s__rosidl_typesupport_c
+[1.722s] Invoked command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces -- -j2 -l2
+[1.763s] Invoking command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces
+[1.797s] -- Install configuration: ""
+[1.799s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_my_interfaces
+[1.800s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/srv/TurtleSrv.json
+[1.800s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces
+[1.800s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv
+[1.801s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/turtle_srv.h
+[1.801s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail
+[1.801s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.h
+[1.801s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__functions.c
+[1.802s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__description.c
+[1.802s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__struct.h
+[1.803s] -- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.c
+[1.805s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__functions.h
+[1.805s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg
+[1.808s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.808s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/library_path.sh
+[1.808s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/library_path.dsv
+[1.810s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_generator_c.so
+[1.810s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces
+[1.812s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv
+[1.813s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail
+[1.813s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_fastrtps_c.h
+[1.814s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg
+[1.814s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.817s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.817s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces
+[1.817s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv
+[1.817s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail
+[1.818s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.hpp
+[1.818s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__traits.hpp
+[1.821s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__struct.hpp
+[1.821s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__builder.hpp
+[1.821s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/turtle_srv.hpp
+[1.821s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg
+[1.821s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.822s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces
+[1.822s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv
+[1.822s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail
+[1.822s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_fastrtps_cpp.hpp
+[1.823s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/dds_fastrtps
+[1.823s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg
+[1.823s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.823s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.826s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces
+[1.826s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv
+[1.826s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail
+[1.826s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_introspection_c.h
+[1.830s] -- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.c
+[1.831s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg
+[1.831s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.831s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_introspection_c.so
+[1.832s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_c.so
+[1.832s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces
+[1.832s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv
+[1.835s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail
+[1.835s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.cpp
+[1.840s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_introspection_cpp.hpp
+[1.840s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.842s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_cpp.so
+[1.842s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/pythonpath.sh
+[1.842s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/pythonpath.dsv
+[1.842s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info
+[1.842s] -- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[1.842s] -- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.845s] -- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[1.845s] -- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/_turtle_srv_s.c
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/__init__.py
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/_turtle_srv.py
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/__init__.py
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_c.so
+[1.846s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_c.c
+[1.914s] Listing '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces'...
+[1.914s] Listing '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv'...
+[1.921s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[1.922s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_introspection_c.so
+[1.923s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_c.so
+[1.926s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_generator_py.so
+[1.926s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/rust_packages/turtle_my_interfaces
+[1.926s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust
+[1.927s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src
+[1.928s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/lib.rs
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/srv
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/srv/rmw.rs
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/srv.rs
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/build.rs
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/Cargo.toml
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/srv/TurtleSrv.idl
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/srv/TurtleSrv.srv
+[1.929s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_my_interfaces
+[1.930s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_my_interfaces
+[1.930s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/ament_prefix_path.sh
+[1.930s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/ament_prefix_path.dsv
+[1.930s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/path.sh
+[1.931s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/path.dsv
+[1.931s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.bash
+[1.931s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.sh
+[1.932s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.zsh
+[1.932s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.dsv
+[1.932s] -- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.dsv
+[1.933s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/packages/turtle_my_interfaces
+[1.933s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_cExport.cmake
+[1.933s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.935s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.935s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.938s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_cppExport.cmake
+[1.939s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.939s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.940s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.940s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.940s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cExport.cmake
+[1.941s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.941s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.942s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.945s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cppExport.cmake
+[1.946s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.946s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_pyExport.cmake
+[1.946s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.948s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.948s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfacesConfig.cmake
+[1.949s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfacesConfig-version.cmake
+[1.950s] -- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.xml
+[1.952s] Invoked command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces

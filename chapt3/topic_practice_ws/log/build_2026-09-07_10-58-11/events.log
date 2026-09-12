@@ -1,0 +1,361 @@
+[0.000000] (-) TimerEvent: {}
+[0.000860] (status_interfaces) JobQueued: {'identifier': 'status_interfaces', 'dependencies': OrderedDict()}
+[0.003379] (status_interfaces) JobStarted: {'identifier': 'status_interfaces'}
+[0.036026] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'cmake'}
+[0.037125] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zzs/chapt3/topic_practice_ws/src/status_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces'], 'cwd': '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt3/topic_practice_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2526', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2372,unix/zzs:/tmp/.ICE-unix/2372', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/efe73792_f585_4d2a_a878_eb9f2bd1049c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q948U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-98fd6735f1.sock', 'GNOME_TERMINAL_SERVICE': ':1.108', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.079512] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.100418] (-) TimerEvent: {}
+[0.202375] (-) TimerEvent: {}
+[0.305006] (-) TimerEvent: {}
+[0.405593] (-) TimerEvent: {}
+[0.418863] (status_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)\n'}
+[0.457760] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.469326] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.487366] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.505016] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.505964] (-) TimerEvent: {}
+[0.525710] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.537645] (status_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.606109] (-) TimerEvent: {}
+[0.706991] (-) TimerEvent: {}
+[0.808173] (-) TimerEvent: {}
+[0.910141] (-) TimerEvent: {}
+[1.010857] (-) TimerEvent: {}
+[1.112181] (-) TimerEvent: {}
+[1.214043] (-) TimerEvent: {}
+[1.316023] (-) TimerEvent: {}
+[1.418104] (-) TimerEvent: {}
+[1.444422] (status_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.518792] (-) TimerEvent: {}
+[1.620184] (-) TimerEvent: {}
+[1.720756] (-) TimerEvent: {}
+[1.821371] (-) TimerEvent: {}
+[1.922097] (-) TimerEvent: {}
+[2.023646] (-) TimerEvent: {}
+[2.125411] (-) TimerEvent: {}
+[2.227558] (-) TimerEvent: {}
+[2.329197] (-) TimerEvent: {}
+[2.394604] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.430252] (-) TimerEvent: {}
+[2.530750] (-) TimerEvent: {}
+[2.631233] (-) TimerEvent: {}
+[2.732426] (-) TimerEvent: {}
+[2.750803] (status_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.758699] (status_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[2.832770] (-) TimerEvent: {}
+[2.933758] (-) TimerEvent: {}
+[2.944008] (status_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.034387] (-) TimerEvent: {}
+[3.135357] (-) TimerEvent: {}
+[3.236532] (-) TimerEvent: {}
+[3.337681] (-) TimerEvent: {}
+[3.439186] (-) TimerEvent: {}
+[3.540399] (-) TimerEvent: {}
+[3.617588] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.641609] (-) TimerEvent: {}
+[3.721985] (status_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.722632] (status_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.741878] (-) TimerEvent: {}
+[3.767446] (status_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.769278] (status_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.774556] (status_interfaces) StdoutLine: {'line': b'-- Configuring done (3.7s)\n'}
+[3.835719] (status_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.843759] (-) TimerEvent: {}
+[3.854412] (status_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/zzs/chapt3/topic_practice_ws/build/status_interfaces\n'}
+[3.869723] (status_interfaces) CommandEnded: {'returncode': 0}
+[3.871666] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'build'}
+[3.875572] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt3/topic_practice_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2526', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2372,unix/zzs:/tmp/.ICE-unix/2372', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/efe73792_f585_4d2a_a878_eb9f2bd1049c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q948U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-98fd6735f1.sock', 'GNOME_TERMINAL_SERVICE': ':1.108', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.944429] (-) TimerEvent: {}
+[3.992056] (status_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[3.996563] (status_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.046876] (-) TimerEvent: {}
+[4.148514] (-) TimerEvent: {}
+[4.252384] (-) TimerEvent: {}
+[4.316472] (status_interfaces) StdoutLine: {'line': b'[  5%] Built target status_interfaces__rosidl_generator_type_description\n'}
+[4.352621] (-) TimerEvent: {}
+[4.367466] (status_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_status_interfaces\n'}
+[4.414470] (status_interfaces) StdoutLine: {'line': b'[  5%] Built target status_interfaces__rs\n'}
+[4.423919] (status_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.432412] (status_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.453212] (-) TimerEvent: {}
+[4.555966] (-) TimerEvent: {}
+[4.657555] (-) TimerEvent: {}
+[4.758364] (-) TimerEvent: {}
+[4.859284] (-) TimerEvent: {}
+[4.899313] (status_interfaces) StdoutLine: {'line': b'[ 11%] Built target status_interfaces__cpp\n'}
+[4.959426] (-) TimerEvent: {}
+[5.037205] (status_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__description.c.o\x1b[0m\n'}
+[5.059840] (-) TimerEvent: {}
+[5.160630] (-) TimerEvent: {}
+[5.227445] (status_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.227765] (status_interfaces) StdoutLine: {'line': b'creating status_interfaces.egg-info\n'}
+[5.250637] (status_interfaces) StdoutLine: {'line': b'writing status_interfaces.egg-info/PKG-INFO\n'}
+[5.251909] (status_interfaces) StdoutLine: {'line': b'writing dependency_links to status_interfaces.egg-info/dependency_links.txt\n'}
+[5.252073] (status_interfaces) StdoutLine: {'line': b'writing top-level names to status_interfaces.egg-info/top_level.txt\n'}
+[5.252193] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[5.252380] (status_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o\x1b[0m\n'}
+[5.261309] (-) TimerEvent: {}
+[5.329951] (status_interfaces) StdoutLine: {'line': b"reading manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[5.330855] (status_interfaces) StdoutLine: {'line': b"writing manifest file 'status_interfaces.egg-info/SOURCES.txt'\n"}
+[5.345828] (status_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[5.361950] (-) TimerEvent: {}
+[5.381852] (status_interfaces) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_build_status_interfaces_egg\n'}
+[5.402137] (status_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.463025] (-) TimerEvent: {}
+[5.481586] (status_interfaces) StdoutLine: {'line': b'[ 22%] Built target status_interfaces__rosidl_generator_c\n'}
+[5.500030] (status_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.502007] (status_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.563543] (-) TimerEvent: {}
+[5.664608] (-) TimerEvent: {}
+[5.767149] (-) TimerEvent: {}
+[5.778756] (status_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[5.867735] (-) TimerEvent: {}
+[5.884027] (status_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.968272] (-) TimerEvent: {}
+[6.070408] (-) TimerEvent: {}
+[6.179685] (-) TimerEvent: {}
+[6.295965] (-) TimerEvent: {}
+[6.400803] (-) TimerEvent: {}
+[6.506794] (-) TimerEvent: {}
+[6.612283] (-) TimerEvent: {}
+[6.729527] (-) TimerEvent: {}
+[6.831759] (-) TimerEvent: {}
+[6.935351] (-) TimerEvent: {}
+[7.039158] (-) TimerEvent: {}
+[7.141010] (-) TimerEvent: {}
+[7.248794] (-) TimerEvent: {}
+[7.371707] (-) TimerEvent: {}
+[7.474489] (-) TimerEvent: {}
+[7.588456] (-) TimerEvent: {}
+[7.692246] (-) TimerEvent: {}
+[7.798292] (-) TimerEvent: {}
+[7.900810] (-) TimerEvent: {}
+[8.008327] (-) TimerEvent: {}
+[8.118724] (-) TimerEvent: {}
+[8.227465] (-) TimerEvent: {}
+[8.330739] (-) TimerEvent: {}
+[8.432367] (-) TimerEvent: {}
+[8.533331] (-) TimerEvent: {}
+[8.633422] (status_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.633931] (-) TimerEvent: {}
+[8.727919] (status_interfaces) StdoutLine: {'line': b'[ 37%] Built target status_interfaces__rosidl_typesupport_cpp\n'}
+[8.736278] (-) TimerEvent: {}
+[8.752459] (status_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.756388] (status_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.837119] (-) TimerEvent: {}
+[8.939767] (-) TimerEvent: {}
+[9.001968] (status_interfaces) StdoutLine: {'line': b'[ 42%] Built target status_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.021091] (status_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.040308] (-) TimerEvent: {}
+[9.142242] (-) TimerEvent: {}
+[9.243703] (-) TimerEvent: {}
+[9.299207] (status_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o\x1b[0m\n'}
+[9.344354] (-) TimerEvent: {}
+[9.379941] (status_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o\x1b[0m\n'}
+[9.440617] (status_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.444767] (-) TimerEvent: {}
+[9.500449] (status_interfaces) StdoutLine: {'line': b'[ 54%] Built target status_interfaces__rosidl_typesupport_introspection_c\n'}
+[9.524512] (status_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.545193] (-) TimerEvent: {}
+[9.647402] (-) TimerEvent: {}
+[9.748289] (-) TimerEvent: {}
+[9.836274] (status_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o\x1b[0m\n'}
+[9.848871] (-) TimerEvent: {}
+[9.906803] (status_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.949542] (-) TimerEvent: {}
+[9.979784] (status_interfaces) StdoutLine: {'line': b'[ 62%] Built target status_interfaces__rosidl_typesupport_c\n'}
+[10.000842] (status_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.028387] (status_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.050142] (-) TimerEvent: {}
+[10.152454] (-) TimerEvent: {}
+[10.192604] (status_interfaces) StdoutLine: {'line': b'[ 68%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[10.253280] (-) TimerEvent: {}
+[10.354541] (-) TimerEvent: {}
+[10.375317] (status_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o\x1b[0m\n'}
+[10.455224] (-) TimerEvent: {}
+[10.557741] (-) TimerEvent: {}
+[10.658786] (-) TimerEvent: {}
+[10.760383] (-) TimerEvent: {}
+[10.764855] (status_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.861531] (-) TimerEvent: {}
+[10.864258] (status_interfaces) StdoutLine: {'line': b'[ 74%] Built target status_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[10.903560] (status_interfaces) StdoutLine: {'line': b'[ 74%] Built target status_interfaces\n'}
+[10.942188] (status_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[10.962354] (-) TimerEvent: {}
+[11.064418] (-) TimerEvent: {}
+[11.165071] (-) TimerEvent: {}
+[11.265578] (-) TimerEvent: {}
+[11.346080] (status_interfaces) StdoutLine: {'line': b'[ 77%] Built target status_interfaces__py\n'}
+[11.365920] (-) TimerEvent: {}
+[11.385865] (status_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o\x1b[0m\n'}
+[11.466643] (-) TimerEvent: {}
+[11.568681] (-) TimerEvent: {}
+[11.660237] (status_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libstatus_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[11.669091] (-) TimerEvent: {}
+[11.730727] (status_interfaces) StdoutLine: {'line': b'[ 82%] Built target status_interfaces__rosidl_generator_py\n'}
+[11.765289] (status_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.765802] (status_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.770469] (-) TimerEvent: {}
+[11.871453] (-) TimerEvent: {}
+[11.902106] (status_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.935911] (status_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.956366] (status_interfaces) StdoutLine: {'line': b'[ 94%] Built target status_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[11.972113] (-) TimerEvent: {}
+[11.995283] (status_interfaces) StdoutLine: {'line': b'[ 94%] Built target status_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.010965] (status_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.072402] (-) TimerEvent: {}
+[12.136270] (status_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.172625] (-) TimerEvent: {}
+[12.193704] (status_interfaces) StdoutLine: {'line': b'[100%] Built target status_interfaces_s__rosidl_typesupport_c\n'}
+[12.216256] (status_interfaces) CommandEnded: {'returncode': 0}
+[12.216713] (status_interfaces) JobProgress: {'identifier': 'status_interfaces', 'progress': 'install'}
+[12.231491] (status_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces'], 'cwd': '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt3/topic_practice_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2526', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2372,unix/zzs:/tmp/.ICE-unix/2372', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/efe73792_f585_4d2a_a878_eb9f2bd1049c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q948U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-98fd6735f1.sock', 'GNOME_TERMINAL_SERVICE': ':1.108', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.244903] (status_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.245761] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces\n'}
+[12.245924] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.json\n'}
+[12.245998] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.246361] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.246718] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h\n'}
+[12.247215] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.247291] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.247875] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h\n'}
+[12.248271] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c\n'}
+[12.248399] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[12.248465] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__description.c\n'}
+[12.248524] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h\n'}
+[12.248650] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h\n'}
+[12.248719] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh\n'}
+[12.248781] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv\n'}
+[12.249154] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so\n'}
+[12.249852] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""\n'}
+[12.250089] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.250149] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.250202] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.250254] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h\n'}
+[12.250750] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.251147] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[12.251590] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.251661] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.251793] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.251859] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.251915] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.251967] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp\n'}
+[12.252022] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp\n'}
+[12.252078] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp\n'}
+[12.252133] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp\n'}
+[12.252460] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp\n'}
+[12.252931] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.253001] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.253062] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.253116] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.253165] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.253216] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps\n'}
+[12.253370] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.254331] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.255207] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.255721] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.256623] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.256826] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.256900] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c\n'}
+[12.256963] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h\n'}
+[12.257021] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[12.257077] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.257453] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so\n'}
+[12.257522] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[12.257976] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces\n'}
+[12.258065] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg\n'}
+[12.258615] (status_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail\n'}
+[12.259174] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.259688] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp\n'}
+[12.260130] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[12.261056] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.261182] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so\n'}
+[12.261276] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[12.261471] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh\n'}
+[12.261535] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv\n'}
+[12.261594] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info\n'}
+[12.261651] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.261705] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.261763] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.261817] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.261868] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces\n'}
+[12.261929] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.262024] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.262091] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[12.262147] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.262198] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py\n'}
+[12.262846] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg\n'}
+[12.263076] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py\n'}
+[12.263146] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py\n'}
+[12.263200] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status_s.c\n'}
+[12.263251] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.263301] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.273830] (-) TimerEvent: {}
+[12.317082] (status_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces'...\n"}
+[12.317272] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py'...\n"}
+[12.317338] (status_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg'...\n"}
+[12.317394] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py'...\n"}
+[12.317447] (status_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py'...\n"}
+[12.325215] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.326404] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.326673] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[12.326896] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.327181] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so\n'}
+[12.327859] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[12.328040] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so\n'}
+[12.328308] (status_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""\n'}
+[12.328503] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rust_packages/status_interfaces\n'}
+[12.328926] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust\n'}
+[12.329892] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src\n'}
+[12.329970] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/lib.rs\n'}
+[12.330103] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg\n'}
+[12.330174] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg/rmw.rs\n'}
+[12.330249] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg.rs\n'}
+[12.333578] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/build.rs\n'}
+[12.333811] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/Cargo.toml\n'}
+[12.333885] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl\n'}
+[12.333944] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg\n'}
+[12.334000] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces\n'}
+[12.334059] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces\n'}
+[12.334198] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh\n'}
+[12.334279] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv\n'}
+[12.334340] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh\n'}
+[12.334401] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv\n'}
+[12.334455] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash\n'}
+[12.334505] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh\n'}
+[12.334560] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh\n'}
+[12.335816] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv\n'}
+[12.336664] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv\n'}
+[12.337027] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces\n'}
+[12.337197] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake\n'}
+[12.337266] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.337491] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.338012] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.338985] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake\n'}
+[12.339684] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.340437] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.340578] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.340656] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.340723] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[12.340781] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.340834] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.340888] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.340992] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[12.341055] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.341115] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake\n'}
+[12.341168] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.341233] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[12.341289] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.341364] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.342386] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.342549] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.342609] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.342702] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.342768] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[12.342821] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake\n'}
+[12.342872] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake\n'}
+[12.342932] (status_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml\n'}
+[12.346975] (status_interfaces) CommandEnded: {'returncode': 0}
+[12.374294] (-) TimerEvent: {}
+[12.400393] (status_interfaces) JobEnded: {'identifier': 'status_interfaces', 'rc': 0}
+[12.401648] (-) EventReactorShutdown: {}

@@ -1,0 +1,25 @@
+[2.899s] Invoking command in '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/install.log --install-scripts $base/lib/demo_python_tf --single-version-externally-managed install_data
+[3.281s] running egg_info
+[3.302s] writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO
+[3.304s] writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt
+[3.306s] writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt
+[3.307s] writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt
+[3.308s] writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt
+[3.349s] reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[3.349s] adding license file 'LICENSE'
+[3.350s] writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'
+[3.350s] running build
+[3.351s] running build_py
+[3.352s] copying demo_python_tf/static_tf_broadcaster.py -> /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf
+[3.356s] running install
+[3.359s] running install_lib
+[3.381s] copying /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf/static_tf_broadcaster.py -> /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf
+[3.383s] byte-compiling /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf/static_tf_broadcaster.py to static_tf_broadcaster.cpython-312.pyc
+[3.384s] running install_data
+[3.386s] running install_egg_info
+[3.410s] removing '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info' (and everything under it)
+[3.410s] Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info
+[3.412s] running install_scripts
+[3.563s] Installing static_tf_broadcaster script to /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf
+[3.564s] writing list of installed files to '/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/install.log'
+[3.597s] Invoked command in '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/install.log --install-scripts $base/lib/demo_python_tf --single-version-externally-managed install_data

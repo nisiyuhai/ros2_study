@@ -1,0 +1,22 @@
+[0.046s] Invoking command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces
+[0.095s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.727s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.772s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.786s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.829s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.853s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.871s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.883s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.173s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:207 (add_custom_target):
+[1.173s]   The target name "$(PROJECR_NAME)" is reserved or not valid for certain
+[1.174s]   CMake features, such as generator expressions, and may result in undefined
+[1.174s]   behavior.
+[1.174s] Call Stack (most recent call first):
+[1.174s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.174s] 
+[1.174s] [0m
+[1.179s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.388s] -- Added test 'lint_cmake' to check CMake code style
+[1.392s] -- Added test 'xmllint' to check XML markup files
+[1.398s] -- Configuring incomplete, errors occurred!
+[1.411s] Invoked command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces

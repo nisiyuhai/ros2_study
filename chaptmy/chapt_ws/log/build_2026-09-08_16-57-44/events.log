@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.014041] (turtle_my_interfaces) JobQueued: {'identifier': 'turtle_my_interfaces', 'dependencies': OrderedDict()}
+[0.014091] (turtle_my_interfaces) JobStarted: {'identifier': 'turtle_my_interfaces'}
+[0.090127] (-) TimerEvent: {}
+[0.103702] (turtle_my_interfaces) JobProgress: {'identifier': 'turtle_my_interfaces', 'progress': 'cmake'}
+[0.109468] (turtle_my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zzs/chaptmy/chapt_ws/src/turtle_my_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces'], 'cwd': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chaptmy/chapt_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2444', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2289,unix/zzs:/tmp/.ICE-unix/2289', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac33db99_f687_494b_a196_f54583421f1b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1S5U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6dced5dc85.sock', 'GNOME_TERMINAL_SERVICE': ':1.102', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.167896] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.190696] (-) TimerEvent: {}
+[0.292380] (-) TimerEvent: {}
+[0.393791] (-) TimerEvent: {}
+[0.444548] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.475912] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.486874] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.494320] (-) TimerEvent: {}
+[0.497338] (turtle_my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.514577] (turtle_my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.594855] (-) TimerEvent: {}
+[0.607290] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.625295] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.695288] (-) TimerEvent: {}
+[0.795814] (-) TimerEvent: {}
+[0.899085] (-) TimerEvent: {}
+[1.002600] (-) TimerEvent: {}
+[1.103116] (-) TimerEvent: {}
+[1.203827] (-) TimerEvent: {}
+[1.307366] (-) TimerEvent: {}
+[1.408823] (-) TimerEvent: {}
+[1.509756] (-) TimerEvent: {}
+[1.610435] (-) TimerEvent: {}
+[1.711811] (-) TimerEvent: {}
+[1.813754] (-) TimerEvent: {}
+[1.894475] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.914587] (-) TimerEvent: {}
+[2.015105] (-) TimerEvent: {}
+[2.117952] (-) TimerEvent: {}
+[2.218948] (-) TimerEvent: {}
+[2.321194] (-) TimerEvent: {}
+[2.423676] (-) TimerEvent: {}
+[2.526077] (-) TimerEvent: {}
+[2.628287] (-) TimerEvent: {}
+[2.735428] (-) TimerEvent: {}
+[2.836250] (-) TimerEvent: {}
+[2.936994] (-) TimerEvent: {}
+[3.037553] (-) TimerEvent: {}
+[3.140788] (-) TimerEvent: {}
+[3.243256] (-) TimerEvent: {}
+[3.344340] (-) TimerEvent: {}
+[3.445120] (-) TimerEvent: {}
+[3.545887] (-) TimerEvent: {}
+[3.646893] (-) TimerEvent: {}
+[3.747729] (-) TimerEvent: {}
+[3.802463] (turtle_my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.848005] (-) TimerEvent: {}
+[3.948669] (-) TimerEvent: {}
+[4.050878] (-) TimerEvent: {}
+[4.152613] (-) TimerEvent: {}
+[4.242978] (turtle_my_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.247117] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.252835] (-) TimerEvent: {}
+[4.354132] (-) TimerEvent: {}
+[4.409066] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.455202] (-) TimerEvent: {}
+[4.555975] (-) TimerEvent: {}
+[4.656872] (-) TimerEvent: {}
+[4.758387] (-) TimerEvent: {}
+[4.859149] (-) TimerEvent: {}
+[4.961916] (-) TimerEvent: {}
+[5.004093] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.062384] (-) TimerEvent: {}
+[5.163483] (-) TimerEvent: {}
+[5.169507] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.177252] (turtle_my_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.223128] (turtle_my_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.228243] (turtle_my_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.231946] (turtle_my_interfaces) StdoutLine: {'line': b'-- Configuring done (5.1s)\n'}
+[5.264140] (-) TimerEvent: {}
+[5.317992] (turtle_my_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.331936] (turtle_my_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces\n'}
+[5.342249] (turtle_my_interfaces) CommandEnded: {'returncode': 0}
+[5.344278] (turtle_my_interfaces) JobProgress: {'identifier': 'turtle_my_interfaces', 'progress': 'build'}
+[5.344307] (turtle_my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chaptmy/chapt_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2444', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2289,unix/zzs:/tmp/.ICE-unix/2289', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac33db99_f687_494b_a196_f54583421f1b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1S5U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6dced5dc85.sock', 'GNOME_TERMINAL_SERVICE': ':1.102', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.365272] (-) TimerEvent: {}
+[5.420326] (turtle_my_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.422415] (turtle_my_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[5.465688] (-) TimerEvent: {}
+[5.566184] (-) TimerEvent: {}
+[5.667724] (-) TimerEvent: {}
+[5.768131] (-) TimerEvent: {}
+[5.788442] (turtle_my_interfaces) StdoutLine: {'line': b'[  5%] Built target turtle_my_interfaces__rosidl_generator_type_description\n'}
+[5.867561] (turtle_my_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_turtle_my_interfaces\n'}
+[5.868543] (-) TimerEvent: {}
+[5.902447] (turtle_my_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.906500] (turtle_my_interfaces) StdoutLine: {'line': b'[  8%] Built target turtle_my_interfaces__rs\n'}
+[5.941855] (turtle_my_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.972026] (-) TimerEvent: {}
+[6.073120] (-) TimerEvent: {}
+[6.175827] (-) TimerEvent: {}
+[6.278082] (-) TimerEvent: {}
+[6.378807] (-) TimerEvent: {}
+[6.479728] (-) TimerEvent: {}
+[6.580555] (-) TimerEvent: {}
+[6.637267] (turtle_my_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_my_interfaces/srv/detail/turtle_srv__description.c.o\x1b[0m\n'}
+[6.683214] (-) TimerEvent: {}
+[6.702917] (turtle_my_interfaces) StdoutLine: {'line': b'[ 14%] Built target turtle_my_interfaces__cpp\n'}
+[6.785085] (-) TimerEvent: {}
+[6.812674] (turtle_my_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_my_interfaces/srv/detail/turtle_srv__functions.c.o\x1b[0m\n'}
+[6.885683] (-) TimerEvent: {}
+[6.897170] (turtle_my_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_my_interfaces/srv/detail/turtle_srv__type_support.c.o\x1b[0m\n'}
+[6.950703] (turtle_my_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libturtle_my_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.986668] (-) TimerEvent: {}
+[7.028364] (turtle_my_interfaces) StdoutLine: {'line': b'[ 22%] Built target turtle_my_interfaces__rosidl_generator_c\n'}
+[7.044867] (turtle_my_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.074451] (turtle_my_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.076328] (turtle_my_interfaces) StdoutLine: {'line': b'creating turtle_my_interfaces.egg-info\n'}
+[7.087058] (-) TimerEvent: {}
+[7.101176] (turtle_my_interfaces) StdoutLine: {'line': b'writing turtle_my_interfaces.egg-info/PKG-INFO\n'}
+[7.102158] (turtle_my_interfaces) StdoutLine: {'line': b'writing dependency_links to turtle_my_interfaces.egg-info/dependency_links.txt\n'}
+[7.104704] (turtle_my_interfaces) StdoutLine: {'line': b'writing top-level names to turtle_my_interfaces.egg-info/top_level.txt\n'}
+[7.106254] (turtle_my_interfaces) StdoutLine: {'line': b"writing manifest file 'turtle_my_interfaces.egg-info/SOURCES.txt'\n"}
+[7.171481] (turtle_my_interfaces) StdoutLine: {'line': b"reading manifest file 'turtle_my_interfaces.egg-info/SOURCES.txt'\n"}
+[7.173339] (turtle_my_interfaces) StdoutLine: {'line': b"writing manifest file 'turtle_my_interfaces.egg-info/SOURCES.txt'\n"}
+[7.187164] (-) TimerEvent: {}
+[7.260032] (turtle_my_interfaces) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_build_turtle_my_interfaces_egg\n'}
+[7.287865] (-) TimerEvent: {}
+[7.293536] (turtle_my_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.388319] (-) TimerEvent: {}
+[7.469771] (turtle_my_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/turtle_my_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_my_interfaces/srv/detail/turtle_srv__type_support_c.cpp.o\x1b[0m\n'}
+[7.488901] (-) TimerEvent: {}
+[7.589565] (-) TimerEvent: {}
+[7.690111] (-) TimerEvent: {}
+[7.794285] (-) TimerEvent: {}
+[7.821879] (turtle_my_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtle_my_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_my_interfaces/srv/detail/dds_fastrtps/turtle_srv__type_support.cpp.o\x1b[0m\n'}
+[7.895117] (-) TimerEvent: {}
+[7.997887] (-) TimerEvent: {}
+[8.098800] (-) TimerEvent: {}
+[8.199505] (-) TimerEvent: {}
+[8.304052] (-) TimerEvent: {}
+[8.404789] (-) TimerEvent: {}
+[8.507291] (-) TimerEvent: {}
+[8.608051] (-) TimerEvent: {}
+[8.711465] (-) TimerEvent: {}
+[8.817034] (-) TimerEvent: {}
+[8.924379] (-) TimerEvent: {}
+[9.030041] (-) TimerEvent: {}
+[9.136342] (-) TimerEvent: {}
+[9.238096] (-) TimerEvent: {}
+[9.340146] (-) TimerEvent: {}
+[9.443178] (-) TimerEvent: {}
+[9.545046] (-) TimerEvent: {}
+[9.610423] (turtle_my_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_my_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.645827] (-) TimerEvent: {}
+[9.734431] (turtle_my_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_my_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.747005] (-) TimerEvent: {}
+[9.749738] (turtle_my_interfaces) StdoutLine: {'line': b'[ 40%] Built target turtle_my_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[9.779122] (turtle_my_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.847471] (-) TimerEvent: {}
+[9.870114] (turtle_my_interfaces) StdoutLine: {'line': b'[ 42%] Built target turtle_my_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[9.889805] (turtle_my_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.948157] (-) TimerEvent: {}
+[10.048857] (-) TimerEvent: {}
+[10.141755] (turtle_my_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_my_interfaces/srv/detail/turtle_srv__type_support.c.o\x1b[0m\n'}
+[10.149300] (-) TimerEvent: {}
+[10.199098] (turtle_my_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtle_my_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_my_interfaces/srv/turtle_srv__type_support.cpp.o\x1b[0m\n'}
+[10.251930] (-) TimerEvent: {}
+[10.288860] (turtle_my_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libturtle_my_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.312472] (turtle_my_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_my_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.352252] (-) TimerEvent: {}
+[10.387724] (turtle_my_interfaces) StdoutLine: {'line': b'[ 57%] Built target turtle_my_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.399735] (turtle_my_interfaces) StdoutLine: {'line': b'[ 57%] Built target turtle_my_interfaces__rosidl_typesupport_c\n'}
+[10.406485] (turtle_my_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[10.417731] (turtle_my_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.453313] (-) TimerEvent: {}
+[10.556866] (-) TimerEvent: {}
+[10.657605] (-) TimerEvent: {}
+[10.758578] (-) TimerEvent: {}
+[10.806001] (turtle_my_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtle_my_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_my_interfaces/srv/turtle_srv__type_support.cpp.o\x1b[0m\n'}
+[10.840727] (turtle_my_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtle_my_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_my_interfaces/srv/detail/turtle_srv__type_support.cpp.o\x1b[0m\n'}
+[10.859082] (-) TimerEvent: {}
+[10.963014] (-) TimerEvent: {}
+[11.064146] (-) TimerEvent: {}
+[11.164695] (-) TimerEvent: {}
+[11.265975] (-) TimerEvent: {}
+[11.368336] (-) TimerEvent: {}
+[11.459445] (turtle_my_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_my_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.468690] (-) TimerEvent: {}
+[11.549135] (turtle_my_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libturtle_my_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.568798] (-) TimerEvent: {}
+[11.669982] (-) TimerEvent: {}
+[11.710048] (turtle_my_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtle_my_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[11.729285] (turtle_my_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtle_my_interfaces__rosidl_typesupport_cpp\n'}
+[11.761183] (turtle_my_interfaces) StdoutLine: {'line': b'[ 74%] Built target turtle_my_interfaces\n'}
+[11.771209] (-) TimerEvent: {}
+[11.800399] (turtle_my_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.871433] (-) TimerEvent: {}
+[11.972870] (-) TimerEvent: {}
+[12.073688] (-) TimerEvent: {}
+[12.174707] (-) TimerEvent: {}
+[12.260528] (turtle_my_interfaces) StdoutLine: {'line': b'[ 77%] Built target turtle_my_interfaces__py\n'}
+[12.276095] (-) TimerEvent: {}
+[12.294028] (turtle_my_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_my_interfaces/srv/_turtle_srv_s.c.o\x1b[0m\n'}
+[12.376497] (-) TimerEvent: {}
+[12.477958] (-) TimerEvent: {}
+[12.531099] (turtle_my_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libturtle_my_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[12.578287] (-) TimerEvent: {}
+[12.602322] (turtle_my_interfaces) StdoutLine: {'line': b'[ 82%] Built target turtle_my_interfaces__rosidl_generator_py\n'}
+[12.637279] (turtle_my_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.645176] (turtle_my_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.679050] (-) TimerEvent: {}
+[12.766520] (turtle_my_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.780479] (-) TimerEvent: {}
+[12.789580] (turtle_my_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.839952] (turtle_my_interfaces) StdoutLine: {'line': b'[ 94%] Built target turtle_my_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[12.851629] (turtle_my_interfaces) StdoutLine: {'line': b'[ 94%] Built target turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[12.870464] (turtle_my_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/turtle_my_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.880904] (-) TimerEvent: {}
+[12.983169] (-) TimerEvent: {}
+[13.009654] (turtle_my_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.061882] (turtle_my_interfaces) StdoutLine: {'line': b'[100%] Built target turtle_my_interfaces_s__rosidl_typesupport_c\n'}
+[13.083602] (-) TimerEvent: {}
+[13.089457] (turtle_my_interfaces) CommandEnded: {'returncode': 0}
+[13.092232] (turtle_my_interfaces) JobProgress: {'identifier': 'turtle_my_interfaces', 'progress': 'install'}
+[13.110869] (turtle_my_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces'], 'cwd': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chaptmy/chapt_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2444', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2289,unix/zzs:/tmp/.ICE-unix/2289', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac33db99_f687_494b_a196_f54583421f1b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1S5U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6dced5dc85.sock', 'GNOME_TERMINAL_SERVICE': ':1.102', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[13.122559] (turtle_my_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.123143] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_my_interfaces\n'}
+[13.123746] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/srv/TurtleSrv.json\n'}
+[13.124470] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces\n'}
+[13.125066] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv\n'}
+[13.125326] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/turtle_srv.h\n'}
+[13.125577] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail\n'}
+[13.126138] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.h\n'}
+[13.126315] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__functions.c\n'}
+[13.126699] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__description.c\n'}
+[13.127277] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__struct.h\n'}
+[13.127447] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.c\n'}
+[13.127882] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__functions.h\n'}
+[13.128356] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg\n'}
+[13.128565] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.128842] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/library_path.sh\n'}
+[13.130027] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/library_path.dsv\n'}
+[13.130637] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_generator_c.so\n'}
+[13.131192] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_generator_c.so" to ""\n'}
+[13.131638] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces\n'}
+[13.131872] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv\n'}
+[13.131977] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail\n'}
+[13.132438] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_fastrtps_c.h\n'}
+[13.132604] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg\n'}
+[13.133075] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.133318] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[13.133999] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.134334] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces\n'}
+[13.134912] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv\n'}
+[13.135055] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail\n'}
+[13.135182] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.hpp\n'}
+[13.135251] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__traits.hpp\n'}
+[13.137966] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__struct.hpp\n'}
+[13.138107] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__builder.hpp\n'}
+[13.138334] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/turtle_srv.hpp\n'}
+[13.138401] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg\n'}
+[13.138461] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[13.138518] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces\n'}
+[13.139181] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv\n'}
+[13.139611] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail\n'}
+[13.139682] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.140218] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/dds_fastrtps\n'}
+[13.140359] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg\n'}
+[13.140474] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.140831] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.144131] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.145212] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces\n'}
+[13.145603] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv\n'}
+[13.145728] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail\n'}
+[13.145798] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_introspection_c.h\n'}
+[13.146501] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.c\n'}
+[13.146648] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg\n'}
+[13.146998] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.147610] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[13.148340] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.148409] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_c.so\n'}
+[13.148521] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[13.148595] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces\n'}
+[13.148650] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv\n'}
+[13.148708] (turtle_my_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail\n'}
+[13.148762] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__type_support.cpp\n'}
+[13.148812] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/include/turtle_my_interfaces/turtle_my_interfaces/srv/detail/turtle_srv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.149359] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[13.149450] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.149507] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_cpp.so\n'}
+[13.149831] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[13.150194] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/pythonpath.sh\n'}
+[13.150581] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/pythonpath.dsv\n'}
+[13.150651] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info\n'}
+[13.151072] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[13.151346] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[13.151414] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[13.151851] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[13.152165] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces\n'}
+[13.152496] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.152891] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.153179] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv\n'}
+[13.153410] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/_turtle_srv_s.c\n'}
+[13.153834] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/__init__.py\n'}
+[13.154346] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/_turtle_srv.py\n'}
+[13.154424] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[13.154873] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/__init__.py\n'}
+[13.155261] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.155333] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_c.so\n'}
+[13.155390] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/_turtle_my_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[13.184394] (-) TimerEvent: {}
+[13.209816] (turtle_my_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces'...\n"}
+[13.210026] (turtle_my_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/__init__.py'...\n"}
+[13.210090] (turtle_my_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv'...\n"}
+[13.210144] (turtle_my_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/__init__.py'...\n"}
+[13.210204] (turtle_my_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/srv/_turtle_srv.py'...\n"}
+[13.217523] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[13.219005] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.219428] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[13.221284] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.222311] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_c.so\n'}
+[13.222598] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages/turtle_my_interfaces/turtle_my_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[13.222741] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_generator_py.so\n'}
+[13.223260] (turtle_my_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/libturtle_my_interfaces__rosidl_generator_py.so" to ""\n'}
+[13.223368] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/rust_packages/turtle_my_interfaces\n'}
+[13.223972] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust\n'}
+[13.224049] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src\n'}
+[13.224180] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/lib.rs\n'}
+[13.224248] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/srv\n'}
+[13.224305] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/srv/rmw.rs\n'}
+[13.224360] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/src/srv.rs\n'}
+[13.224425] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/build.rs\n'}
+[13.224477] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/rust/Cargo.toml\n'}
+[13.224527] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/srv/TurtleSrv.idl\n'}
+[13.225002] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/srv/TurtleSrv.srv\n'}
+[13.225291] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_my_interfaces\n'}
+[13.225715] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_my_interfaces\n'}
+[13.225994] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/ament_prefix_path.sh\n'}
+[13.226102] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/ament_prefix_path.dsv\n'}
+[13.226164] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/path.sh\n'}
+[13.226435] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/environment/path.dsv\n'}
+[13.226860] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.bash\n'}
+[13.227232] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.sh\n'}
+[13.227429] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.zsh\n'}
+[13.227605] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/local_setup.dsv\n'}
+[13.227788] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.dsv\n'}
+[13.228174] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/ament_index/resource_index/packages/turtle_my_interfaces\n'}
+[13.228568] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_cExport.cmake\n'}
+[13.228893] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.229382] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.229501] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.229784] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_cppExport.cmake\n'}
+[13.229935] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.230210] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.230298] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.230758] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.230839] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[13.231198] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.231401] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.231732] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.231955] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[13.232139] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.232367] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_pyExport.cmake\n'}
+[13.232718] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/export_turtle_my_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.233232] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[13.233774] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.233895] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.234672] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.235088] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.235158] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.235622] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.235724] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[13.236128] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfacesConfig.cmake\n'}
+[13.236491] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/cmake/turtle_my_interfacesConfig-version.cmake\n'}
+[13.236832] (turtle_my_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.xml\n'}
+[13.241801] (turtle_my_interfaces) CommandEnded: {'returncode': 0}
+[13.285309] (-) TimerEvent: {}
+[13.300027] (turtle_my_interfaces) JobEnded: {'identifier': 'turtle_my_interfaces', 'rc': 0}
+[13.304272] (-) EventReactorShutdown: {}

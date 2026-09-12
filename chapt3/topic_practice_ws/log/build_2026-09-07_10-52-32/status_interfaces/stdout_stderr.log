@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[31mCMake Error at CMakeLists.txt:11 (find_package):
+  By not providing "Findrosidldefault_generators.cmake" in CMAKE_MODULE_PATH
+  this project has asked CMake to find a package configuration file provided
+  by "rosidldefault_generators", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "rosidldefault_generators" with any of the following names:
+
+    rosidldefault_generatorsConfig.cmake
+    rosidldefault_generators-config.cmake
+
+  Add the installation prefix of "rosidldefault_generators" to
+  CMAKE_PREFIX_PATH or set "rosidldefault_generators_DIR" to a directory
+  containing one of the above files.  If "rosidldefault_generators" provides
+  a separate development package or SDK, be sure it has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!

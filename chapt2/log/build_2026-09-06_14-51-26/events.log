@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.001273] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict()}
+[0.001857] (demo_python_pkg) JobStarted: {'identifier': 'demo_python_pkg'}
+[0.100580] (-) TimerEvent: {}
+[0.202030] (-) TimerEvent: {}
+[0.303591] (-) TimerEvent: {}
+[0.405521] (-) TimerEvent: {}
+[0.506429] (-) TimerEvent: {}
+[0.606951] (-) TimerEvent: {}
+[0.708450] (-) TimerEvent: {}
+[0.811582] (-) TimerEvent: {}
+[0.912116] (-) TimerEvent: {}
+[1.012682] (-) TimerEvent: {}
+[1.113464] (-) TimerEvent: {}
+[1.214469] (-) TimerEvent: {}
+[1.314999] (-) TimerEvent: {}
+[1.415457] (-) TimerEvent: {}
+[1.516173] (-) TimerEvent: {}
+[1.616962] (-) TimerEvent: {}
+[1.717777] (-) TimerEvent: {}
+[1.818751] (-) TimerEvent: {}
+[1.921333] (-) TimerEvent: {}
+[2.021579] (-) TimerEvent: {}
+[2.022741] (demo_python_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/demo_python_pkg', 'build', '--build-base', '/home/zzs/chapt2/build/demo_python_pkg/build', 'install', '--record', '/home/zzs/chapt2/build/demo_python_pkg/install.log', '--install-scripts', '$base/lib/demo_python_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zzs/chapt2/chapt2_ws/src/demo_python_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2552', 'BUNDLED_DEBUGPY_PATH': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2393,unix/zzs:/tmp/.ICE-unix/2393', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9cab2a25_fded_4eeb_9bae_cf78e463e334', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-d28f0d8a32533022.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/zzs/.config/Code/User/workspaceStorage/5f09c4557075efaa86c94b0adb4b9449/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M1N4U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-947e917ae2.sock', 'GNOME_TERMINAL_SERVICE': ':1.104', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt2/build/demo_python_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zzs/chapt2/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.122049] (-) TimerEvent: {}
+[2.222894] (-) TimerEvent: {}
+[2.323992] (-) TimerEvent: {}
+[2.424470] (-) TimerEvent: {}
+[2.528668] (-) TimerEvent: {}
+[2.629517] (-) TimerEvent: {}
+[2.660218] (demo_python_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.660683] (demo_python_pkg) StdoutLine: {'line': b'creating ../../../build/demo_python_pkg/demo_python_pkg.egg-info\n'}
+[2.681764] (demo_python_pkg) StdoutLine: {'line': b'writing ../../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO\n'}
+[2.682512] (demo_python_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt\n'}
+[2.682707] (demo_python_pkg) StdoutLine: {'line': b'writing entry points to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt\n'}
+[2.682832] (demo_python_pkg) StdoutLine: {'line': b'writing requirements to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt\n'}
+[2.683250] (demo_python_pkg) StdoutLine: {'line': b'writing top-level names to ../../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt\n'}
+[2.683482] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.724551] (demo_python_pkg) StdoutLine: {'line': b"reading manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.724888] (demo_python_pkg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.725514] (demo_python_pkg) StdoutLine: {'line': b"writing manifest file '../../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'\n"}
+[2.726430] (demo_python_pkg) StdoutLine: {'line': b'running build\n'}
+[2.726625] (demo_python_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.726870] (demo_python_pkg) StdoutLine: {'line': b'creating /home/zzs/chapt2/build/demo_python_pkg/build\n'}
+[2.727160] (demo_python_pkg) StdoutLine: {'line': b'creating /home/zzs/chapt2/build/demo_python_pkg/build/lib\n'}
+[2.727714] (demo_python_pkg) StdoutLine: {'line': b'creating /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[2.727883] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/person_node.py -> /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[2.728093] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/python_node.py -> /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[2.728591] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/__init__.py -> /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[2.729177] (demo_python_pkg) StdoutLine: {'line': b'copying demo_python_pkg/learn_thread.py -> /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg\n'}
+[2.729529] (-) TimerEvent: {}
+[2.730323] (demo_python_pkg) StdoutLine: {'line': b'running install\n'}
+[2.735680] (demo_python_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.760937] (demo_python_pkg) StdoutLine: {'line': b'creating /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg\n'}
+[2.761483] (demo_python_pkg) StdoutLine: {'line': b'copying /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg/person_node.py -> /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg\n'}
+[2.761566] (demo_python_pkg) StdoutLine: {'line': b'copying /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg\n'}
+[2.761620] (demo_python_pkg) StdoutLine: {'line': b'copying /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg\n'}
+[2.761669] (demo_python_pkg) StdoutLine: {'line': b'copying /home/zzs/chapt2/build/demo_python_pkg/build/lib/demo_python_pkg/learn_thread.py -> /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg\n'}
+[2.762911] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/person_node.py to person_node.cpython-312.pyc\n'}
+[2.763063] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/python_node.py to python_node.cpython-312.pyc\n'}
+[2.763156] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[2.763607] (demo_python_pkg) StdoutLine: {'line': b'byte-compiling /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg/learn_thread.py to learn_thread.cpython-312.pyc\n'}
+[2.763968] (demo_python_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.764041] (demo_python_pkg) StdoutLine: {'line': b'creating /home/zzs/chapt2/install/demo_python_pkg/share/ament_index\n'}
+[2.764451] (demo_python_pkg) StdoutLine: {'line': b'creating /home/zzs/chapt2/install/demo_python_pkg/share/ament_index/resource_index\n'}
+[2.764549] (demo_python_pkg) StdoutLine: {'line': b'creating /home/zzs/chapt2/install/demo_python_pkg/share/ament_index/resource_index/packages\n'}
+[2.764603] (demo_python_pkg) StdoutLine: {'line': b'copying resource/demo_python_pkg -> /home/zzs/chapt2/install/demo_python_pkg/share/ament_index/resource_index/packages\n'}
+[2.764651] (demo_python_pkg) StdoutLine: {'line': b'copying package.xml -> /home/zzs/chapt2/install/demo_python_pkg/share/demo_python_pkg\n'}
+[2.764723] (demo_python_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.785457] (demo_python_pkg) StdoutLine: {'line': b'Copying ../../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/zzs/chapt2/install/demo_python_pkg/lib/python3.12/site-packages/demo_python_pkg-0.0.0-py3.12.egg-info\n'}
+[2.786490] (demo_python_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.829827] (-) TimerEvent: {}
+[2.924111] (demo_python_pkg) StdoutLine: {'line': b'Installing learn_thread script to /home/zzs/chapt2/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[2.924574] (demo_python_pkg) StdoutLine: {'line': b'Installing person_node script to /home/zzs/chapt2/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[2.924774] (demo_python_pkg) StdoutLine: {'line': b'Installing python_node script to /home/zzs/chapt2/install/demo_python_pkg/lib/demo_python_pkg\n'}
+[2.925440] (demo_python_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/zzs/chapt2/build/demo_python_pkg/install.log'\n"}
+[2.930199] (-) TimerEvent: {}
+[2.964238] (demo_python_pkg) CommandEnded: {'returncode': 0}
+[2.994193] (demo_python_pkg) JobEnded: {'identifier': 'demo_python_pkg', 'rc': 0}
+[2.994703] (-) EventReactorShutdown: {}

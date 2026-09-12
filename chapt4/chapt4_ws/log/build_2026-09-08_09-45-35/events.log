@@ -1,0 +1,346 @@
+[0.000000] (-) TimerEvent: {}
+[0.011777] (chapt4_interfaces) JobQueued: {'identifier': 'chapt4_interfaces', 'dependencies': OrderedDict()}
+[0.012036] (chapt4_interfaces) JobStarted: {'identifier': 'chapt4_interfaces'}
+[0.093756] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'cmake'}
+[0.093851] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/zzs/chapt4/chapt4_ws/src/chapt4_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces'], 'cwd': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt4/chapt4_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2527', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2374,unix/zzs:/tmp/.ICE-unix/2374', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b00d58c9_f2ae_4e5f_af59_7d406fbecf40', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X1DYU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3c0ed9583e.sock', 'GNOME_TERMINAL_SERVICE': ':1.101', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.101126] (-) TimerEvent: {}
+[0.162314] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.201447] (-) TimerEvent: {}
+[0.302183] (-) TimerEvent: {}
+[0.403051] (-) TimerEvent: {}
+[0.458937] (chapt4_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[0.503583] (-) TimerEvent: {}
+[0.551757] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.576186] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.603881] (-) TimerEvent: {}
+[0.618789] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.659057] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.704085] (-) TimerEvent: {}
+[0.804707] (-) TimerEvent: {}
+[0.853140] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.888872] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.905361] (-) TimerEvent: {}
+[1.006182] (-) TimerEvent: {}
+[1.107318] (-) TimerEvent: {}
+[1.209073] (-) TimerEvent: {}
+[1.309585] (-) TimerEvent: {}
+[1.410941] (-) TimerEvent: {}
+[1.513101] (-) TimerEvent: {}
+[1.613485] (-) TimerEvent: {}
+[1.634685] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.714159] (-) TimerEvent: {}
+[1.815315] (-) TimerEvent: {}
+[1.917927] (-) TimerEvent: {}
+[2.018258] (-) TimerEvent: {}
+[2.118933] (-) TimerEvent: {}
+[2.219404] (-) TimerEvent: {}
+[2.320816] (-) TimerEvent: {}
+[2.422053] (-) TimerEvent: {}
+[2.523093] (-) TimerEvent: {}
+[2.624275] (-) TimerEvent: {}
+[2.663842] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.724888] (-) TimerEvent: {}
+[2.825913] (-) TimerEvent: {}
+[2.927216] (-) TimerEvent: {}
+[3.029269] (-) TimerEvent: {}
+[3.067390] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.073226] (chapt4_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.129743] (-) TimerEvent: {}
+[3.231207] (-) TimerEvent: {}
+[3.234392] (chapt4_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.331935] (-) TimerEvent: {}
+[3.435264] (-) TimerEvent: {}
+[3.536182] (-) TimerEvent: {}
+[3.636982] (-) TimerEvent: {}
+[3.738070] (-) TimerEvent: {}
+[3.839569] (-) TimerEvent: {}
+[3.891919] (chapt4_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.940252] (-) TimerEvent: {}
+[4.041060] (-) TimerEvent: {}
+[4.060032] (chapt4_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.064843] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.122975] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.125430] (chapt4_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.132250] (chapt4_interfaces) StdoutLine: {'line': b'-- Configuring done (4.0s)\n'}
+[4.141708] (-) TimerEvent: {}
+[4.192022] (chapt4_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[4.206775] (chapt4_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces\n'}
+[4.217663] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[4.219125] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'build'}
+[4.219157] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt4/chapt4_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2527', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2374,unix/zzs:/tmp/.ICE-unix/2374', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b00d58c9_f2ae_4e5f_af59_7d406fbecf40', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X1DYU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3c0ed9583e.sock', 'GNOME_TERMINAL_SERVICE': ':1.101', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.242117] (-) TimerEvent: {}
+[4.304936] (chapt4_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.305334] (chapt4_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.343204] (-) TimerEvent: {}
+[4.444023] (-) TimerEvent: {}
+[4.545232] (-) TimerEvent: {}
+[4.579581] (chapt4_interfaces) StdoutLine: {'line': b'[  5%] Built target chapt4_interfaces__rosidl_generator_type_description\n'}
+[4.619786] (chapt4_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_chapt4_interfaces\n'}
+[4.634589] (chapt4_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.645669] (-) TimerEvent: {}
+[4.656168] (chapt4_interfaces) StdoutLine: {'line': b'[  8%] Built target chapt4_interfaces__rs\n'}
+[4.693432] (chapt4_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.745990] (-) TimerEvent: {}
+[4.849240] (-) TimerEvent: {}
+[4.950699] (-) TimerEvent: {}
+[5.051313] (-) TimerEvent: {}
+[5.152087] (-) TimerEvent: {}
+[5.255309] (-) TimerEvent: {}
+[5.287197] (chapt4_interfaces) StdoutLine: {'line': b'[ 11%] Built target chapt4_interfaces__cpp\n'}
+[5.351898] (chapt4_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__description.c.o\x1b[0m\n'}
+[5.356183] (-) TimerEvent: {}
+[5.456918] (-) TimerEvent: {}
+[5.525478] (chapt4_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__functions.c.o\x1b[0m\n'}
+[5.557057] (-) TimerEvent: {}
+[5.600524] (chapt4_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.601871] (chapt4_interfaces) StdoutLine: {'line': b'creating chapt4_interfaces.egg-info\n'}
+[5.623488] (chapt4_interfaces) StdoutLine: {'line': b'writing chapt4_interfaces.egg-info/PKG-INFO\n'}
+[5.624285] (chapt4_interfaces) StdoutLine: {'line': b'writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt\n'}
+[5.624430] (chapt4_interfaces) StdoutLine: {'line': b'writing top-level names to chapt4_interfaces.egg-info/top_level.txt\n'}
+[5.624679] (chapt4_interfaces) StdoutLine: {'line': b"writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[5.625303] (chapt4_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_c.dir/rosidl_generator_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o\x1b[0m\n'}
+[5.658116] (-) TimerEvent: {}
+[5.680735] (chapt4_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libchapt4_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[5.689737] (chapt4_interfaces) StdoutLine: {'line': b"reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[5.690101] (chapt4_interfaces) StdoutLine: {'line': b"writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[5.727233] (chapt4_interfaces) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_chapt4_interfaces_egg\n'}
+[5.755611] (chapt4_interfaces) StdoutLine: {'line': b'[ 22%] Built target chapt4_interfaces__rosidl_generator_c\n'}
+[5.758855] (-) TimerEvent: {}
+[5.770459] (chapt4_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.776008] (chapt4_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.860064] (-) TimerEvent: {}
+[5.960917] (-) TimerEvent: {}
+[6.062155] (-) TimerEvent: {}
+[6.117569] (chapt4_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/chapt4_interfaces/srv/detail/dds_fastrtps/face_detector__type_support.cpp.o\x1b[0m\n'}
+[6.124876] (chapt4_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/chapt4_interfaces/srv/detail/face_detector__type_support_c.cpp.o\x1b[0m\n'}
+[6.162647] (-) TimerEvent: {}
+[6.264170] (-) TimerEvent: {}
+[6.365792] (-) TimerEvent: {}
+[6.469615] (-) TimerEvent: {}
+[6.572496] (-) TimerEvent: {}
+[6.674202] (-) TimerEvent: {}
+[6.777157] (-) TimerEvent: {}
+[6.879337] (-) TimerEvent: {}
+[6.980464] (-) TimerEvent: {}
+[7.045712] (chapt4_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.080916] (-) TimerEvent: {}
+[7.142191] (chapt4_interfaces) StdoutLine: {'line': b'[ 37%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.157437] (chapt4_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.181605] (-) TimerEvent: {}
+[7.249459] (chapt4_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.282160] (-) TimerEvent: {}
+[7.381214] (chapt4_interfaces) StdoutLine: {'line': b'[ 42%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.382879] (-) TimerEvent: {}
+[7.408297] (chapt4_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.482975] (-) TimerEvent: {}
+[7.484473] (chapt4_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/chapt4_interfaces/srv/detail/face_detector__type_support.c.o\x1b[0m\n'}
+[7.564702] (chapt4_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libchapt4_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.583111] (-) TimerEvent: {}
+[7.626825] (chapt4_interfaces) StdoutLine: {'line': b'[ 51%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.642973] (chapt4_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.683244] (-) TimerEvent: {}
+[7.697172] (chapt4_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/chapt4_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[7.766669] (chapt4_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.783785] (-) TimerEvent: {}
+[7.839876] (chapt4_interfaces) StdoutLine: {'line': b'[ 60%] Built target chapt4_interfaces__rosidl_typesupport_c\n'}
+[7.857832] (chapt4_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.883960] (-) TimerEvent: {}
+[7.967717] (chapt4_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/chapt4_interfaces/srv/detail/face_detector__type_support.cpp.o\x1b[0m\n'}
+[7.984368] (-) TimerEvent: {}
+[8.085270] (-) TimerEvent: {}
+[8.146384] (chapt4_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/chapt4_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/chapt4_interfaces/srv/face_detector__type_support.cpp.o\x1b[0m\n'}
+[8.186157] (-) TimerEvent: {}
+[8.287728] (-) TimerEvent: {}
+[8.388977] (-) TimerEvent: {}
+[8.491947] (-) TimerEvent: {}
+[8.593116] (-) TimerEvent: {}
+[8.617673] (chapt4_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.662863] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libchapt4_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.693578] (-) TimerEvent: {}
+[8.757641] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.794148] (-) TimerEvent: {}
+[8.794884] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] Built target chapt4_interfaces__rosidl_typesupport_cpp\n'}
+[8.834923] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] Built target chapt4_interfaces\n'}
+[8.866452] (chapt4_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.894458] (-) TimerEvent: {}
+[8.995250] (-) TimerEvent: {}
+[9.097089] (-) TimerEvent: {}
+[9.198566] (-) TimerEvent: {}
+[9.280465] (chapt4_interfaces) StdoutLine: {'line': b'[ 77%] Built target chapt4_interfaces__py\n'}
+[9.299292] (-) TimerEvent: {}
+[9.313645] (chapt4_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces__rosidl_generator_py.dir/rosidl_generator_py/chapt4_interfaces/srv/_face_detector_s.c.o\x1b[0m\n'}
+[9.399645] (-) TimerEvent: {}
+[9.500563] (-) TimerEvent: {}
+[9.601940] (-) TimerEvent: {}
+[9.611058] (chapt4_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libchapt4_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[9.687750] (chapt4_interfaces) StdoutLine: {'line': b'[ 82%] Built target chapt4_interfaces__rosidl_generator_py\n'}
+[9.702206] (-) TimerEvent: {}
+[9.719694] (chapt4_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.724335] (chapt4_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.803003] (-) TimerEvent: {}
+[9.847909] (chapt4_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.864437] (chapt4_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.903473] (-) TimerEvent: {}
+[9.910778] (chapt4_interfaces) StdoutLine: {'line': b'[ 94%] Built target chapt4_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[9.923658] (chapt4_interfaces) StdoutLine: {'line': b'[ 94%] Built target chapt4_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[9.944904] (chapt4_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/chapt4_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.004094] (-) TimerEvent: {}
+[10.066188] (chapt4_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[10.104488] (-) TimerEvent: {}
+[10.114269] (chapt4_interfaces) StdoutLine: {'line': b'[100%] Built target chapt4_interfaces_s__rosidl_typesupport_c\n'}
+[10.140342] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[10.141009] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'install'}
+[10.154546] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces'], 'cwd': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt4/chapt4_ws/src', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'SYSTEMD_EXEC_PID': '2527', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2374,unix/zzs:/tmp/.ICE-unix/2374', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/b00d58c9_f2ae_4e5f_af59_7d406fbecf40', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.X1DYU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3c0ed9583e.sock', 'GNOME_TERMINAL_SERVICE': ':1.101', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[10.167296] (chapt4_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.167831] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces\n'}
+[10.168191] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.json\n'}
+[10.168274] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[10.168336] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[10.168488] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h\n'}
+[10.168776] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[10.169081] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h\n'}
+[10.169566] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h\n'}
+[10.169820] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c\n'}
+[10.170354] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__description.c\n'}
+[10.170514] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h\n'}
+[10.170628] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c\n'}
+[10.170873] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[10.171287] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.171584] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh\n'}
+[10.171662] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv\n'}
+[10.171718] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so\n'}
+[10.171988] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.172454] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[10.172536] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[10.172727] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[10.173095] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h\n'}
+[10.173164] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[10.173219] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.173271] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.173501] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.173917] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[10.174226] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[10.174346] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp\n'}
+[10.174502] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[10.174643] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp\n'}
+[10.174922] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp\n'}
+[10.175379] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp\n'}
+[10.176216] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp\n'}
+[10.176495] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[10.176742] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.176954] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[10.177132] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[10.177206] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[10.177262] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps\n'}
+[10.177327] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.177379] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[10.177428] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.177477] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.178403] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.178895] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[10.179555] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[10.180026] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[10.180131] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h\n'}
+[10.180349] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c\n'}
+[10.180490] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[10.180630] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.180740] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.181124] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.181274] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so\n'}
+[10.181637] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.181879] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[10.182435] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[10.182707] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[10.182772] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.182839] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp\n'}
+[10.182899] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.183563] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.184045] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.184935] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.185485] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh\n'}
+[10.185994] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv\n'}
+[10.186367] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info\n'}
+[10.186829] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[10.187636] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[10.188059] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[10.188234] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[10.188302] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces\n'}
+[10.188364] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.188509] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.188901] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv\n'}
+[10.189172] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/_face_detector.py\n'}
+[10.189442] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/__init__.py\n'}
+[10.189678] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/_face_detector_s.c\n'}
+[10.189895] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[10.189966] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/__init__.py\n'}
+[10.190029] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.so\n'}
+[10.190080] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.190129] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[10.205035] (-) TimerEvent: {}
+[10.238192] (chapt4_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces'...\n"}
+[10.238373] (chapt4_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/__init__.py'...\n"}
+[10.238435] (chapt4_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv'...\n"}
+[10.238489] (chapt4_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/__init__.py'...\n"}
+[10.238542] (chapt4_interfaces) StdoutLine: {'line': b"Compiling '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/_face_detector.py'...\n"}
+[10.246012] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.246514] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.246757] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[10.247141] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.247447] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.so\n'}
+[10.247699] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[10.248202] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so\n'}
+[10.248689] (chapt4_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so" to ""\n'}
+[10.249129] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rust_packages/chapt4_interfaces\n'}
+[10.249508] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust\n'}
+[10.249704] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src\n'}
+[10.250144] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/lib.rs\n'}
+[10.250475] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv\n'}
+[10.250640] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv/rmw.rs\n'}
+[10.251116] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv.rs\n'}
+[10.251647] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/build.rs\n'}
+[10.251726] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/Cargo.toml\n'}
+[10.251860] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl\n'}
+[10.252222] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/src/FaceDetector.srv\n'}
+[10.252578] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces\n'}
+[10.252751] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces\n'}
+[10.252947] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh\n'}
+[10.253296] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv\n'}
+[10.253625] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh\n'}
+[10.254019] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv\n'}
+[10.254203] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash\n'}
+[10.254459] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh\n'}
+[10.254744] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh\n'}
+[10.255093] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv\n'}
+[10.255388] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv\n'}
+[10.255753] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces\n'}
+[10.256083] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.256400] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.256567] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.256972] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.257104] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.257289] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.257663] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.258068] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.258386] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.258684] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.258756] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.258957] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.259247] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.259451] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.259685] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.260020] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake\n'}
+[10.260334] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.260573] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[10.261132] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.261325] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.261774] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.261863] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.262212] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.262761] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.262836] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[10.263535] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake\n'}
+[10.263623] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake\n'}
+[10.263682] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml\n'}
+[10.266885] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[10.300525] (chapt4_interfaces) JobEnded: {'identifier': 'chapt4_interfaces', 'rc': 0}
+[10.301889] (-) EventReactorShutdown: {}

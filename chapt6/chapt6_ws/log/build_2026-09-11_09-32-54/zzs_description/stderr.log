@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/zzs/chapt6/chapt6_ws/src/zzs_description/plugins": No such file or
+  directory.
+
+[0m

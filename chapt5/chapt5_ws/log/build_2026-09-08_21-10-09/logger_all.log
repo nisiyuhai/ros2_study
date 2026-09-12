@@ -1,0 +1,127 @@
+[1.100s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.100s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7230e0781cd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7230e07813a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7230e07813a0>>)
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.395s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zzs/chapt5/chapt5_ws'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.395s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extensions ['ignore', 'ignore_ament_install']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extension 'ignore'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extension 'ignore_ament_install'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extensions ['colcon_pkg']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extension 'colcon_pkg'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extensions ['colcon_meta']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extension 'colcon_meta'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extensions ['ros']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_tf) by extension 'ros'
+[1.996s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_python_tf' with type 'ros.ament_python' and name 'demo_python_tf'
+[1.999s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.470s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.650s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/jazzy
+[2.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_args' from command line to 'None'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_target' from command line to 'None'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_clean_cache' from command line to 'False'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_clean_first' from command line to 'False'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'cmake_force_configure' from command line to 'False'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'ament_cmake_args' from command line to 'None'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'catkin_cmake_args' from command line to 'None'
+[2.988s] Level 5:colcon.colcon_core.verb:set package 'demo_python_tf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.988s] DEBUG:colcon.colcon_core.verb:Building package 'demo_python_tf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzs/chapt5/chapt5_ws/build/demo_python_tf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf', 'merge_install': False, 'path': '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf', 'symlink_install': False, 'test_result_base': None}
+[2.988s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.996s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.998s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf' with build type 'ament_python'
+[2.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_tf', 'ament_prefix_path')
+[3.006s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/hook/ament_prefix_path.ps1'
+[3.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/hook/ament_prefix_path.dsv'
+[3.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/hook/ament_prefix_path.sh'
+[3.030s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.030s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.625s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf'
+[3.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.697s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_egg_info, install_data, bdist_rpm, build_py, build_scripts, build_ext, extract_messages, upload_docs, alias, editable_wheel, rotate, saveopts, bdist_dumb, check, install_scripts, bdist_egg, upload, init_catalog, develop, setopt, install, clean, install_headers, easy_install, build_clib, compile_catalog, update_catalog, bdist, symlink_data, build, dist_info, sdist, test, egg_info, install_lib, bdist_wheel, register
+[5.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/install.log --install-scripts $base/lib/demo_python_tf --single-version-externally-managed install_data
+[6.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_tf build --build-base /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build install --record /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/install.log --install-scripts $base/lib/demo_python_tf --single-version-externally-managed install_data
+[6.479s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf' for CMake module files
+[6.480s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf' for CMake config files
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/bin'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/pkgconfig/demo_python_tf.pc'
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages'
+[6.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_tf', 'pythonpath')
+[6.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/hook/pythonpath.ps1'
+[6.484s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/hook/pythonpath.dsv'
+[6.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/hook/pythonpath.sh'
+[6.485s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/bin'
+[6.485s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_python_tf)
+[6.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/package.ps1'
+[6.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/package.dsv'
+[6.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/package.sh'
+[6.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/package.bash'
+[6.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/demo_python_tf/package.zsh'
+[6.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/share/colcon-core/packages/demo_python_tf)
+[6.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.495s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.496s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.522s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.522s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.983s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.984s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chapt5/chapt5_ws/install/local_setup.ps1'
+[6.987s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzs/chapt5/chapt5_ws/install/_local_setup_util_ps1.py'
+[6.990s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chapt5/chapt5_ws/install/setup.ps1'
+[6.994s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chapt5/chapt5_ws/install/local_setup.sh'
+[6.997s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzs/chapt5/chapt5_ws/install/_local_setup_util_sh.py'
+[6.997s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chapt5/chapt5_ws/install/setup.sh'
+[6.999s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chapt5/chapt5_ws/install/local_setup.bash'
+[7.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chapt5/chapt5_ws/install/setup.bash'
+[7.002s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chapt5/chapt5_ws/install/local_setup.zsh'
+[7.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chapt5/chapt5_ws/install/setup.zsh'

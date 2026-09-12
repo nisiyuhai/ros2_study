@@ -1,0 +1,42 @@
+[0.052s] Invoking command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt6/chapt6_ws/build/zzs_description -- -j2 -l2
+[0.455s] Invoked command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt6/chapt6_ws/build/zzs_description -- -j2 -l2
+[0.509s] Invoking command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt6/chapt6_ws/build/zzs_description
+[0.556s] -- Install configuration: ""
+[0.558s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch
+[0.558s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch/gazebo_sim.launch.py
+[0.559s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch/display_robot.launch.py
+[0.559s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf
+[0.560s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.xacro
+[0.560s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.gv
+[0.563s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.pdf
+[0.563s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor
+[0.563s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/imu.urdf.xacro
+[0.564s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/camera.urdf.xacro
+[0.565s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/laser.urdf.xacro
+[0.565s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.urdf
+[0.566s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/common_intertial.xacro
+[0.566s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator
+[0.569s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator/wheel.urdf.xacro
+[0.570s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator/caster.urdf.xacro
+[0.570s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/robot.urdf.xacro
+[0.570s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/base.urdf.xacro
+[0.570s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/config
+[0.571s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/config/display_robot_model.rviz
+[0.571s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/world
+[0.571s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/world/world1.sdf
+[0.572s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/ament_index/resource_index/package_run_dependencies/zzs_description
+[0.575s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/ament_index/resource_index/parent_prefix_path/zzs_description
+[0.575s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/ament_prefix_path.sh
+[0.575s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/ament_prefix_path.dsv
+[0.581s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/path.sh
+[0.582s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/path.dsv
+[0.582s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.bash
+[0.582s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.sh
+[0.582s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.zsh
+[0.582s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.dsv
+[0.582s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/package.dsv
+[0.583s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/ament_index/resource_index/packages/zzs_description
+[0.584s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/cmake/zzs_descriptionConfig.cmake
+[0.585s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/cmake/zzs_descriptionConfig-version.cmake
+[0.585s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/package.xml
+[0.588s] Invoked command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt6/chapt6_ws/build/zzs_description

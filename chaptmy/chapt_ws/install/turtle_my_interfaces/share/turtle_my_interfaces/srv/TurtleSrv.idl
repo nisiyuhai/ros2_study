@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtle_my_interfaces/srv/TurtleSrv.srv
+// generated code does not contain a copyright notice
+
+
+module turtle_my_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求部分")
+    struct TurtleSrv_Request {
+      @verbatim (language="comment", text=
+        "目标X坐标")
+      float x;
+
+      @verbatim (language="comment", text=
+        "目标Y坐标")
+      float y;
+
+      @verbatim (language="comment", text=
+        "目标朝向角度（弧度）")
+      float theta;
+    };
+    @verbatim (language="comment", text=
+      "响应部分")
+    struct TurtleSrv_Response {
+      @verbatim (language="comment", text=
+        "是否成功")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "状态信息")
+      string message;
+    };
+  };
+};

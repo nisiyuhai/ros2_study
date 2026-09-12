@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.006273] (demo_python_tf) JobQueued: {'identifier': 'demo_python_tf', 'dependencies': OrderedDict()}
+[0.006353] (demo_python_tf) JobStarted: {'identifier': 'demo_python_tf'}
+[0.102101] (-) TimerEvent: {}
+[0.203808] (-) TimerEvent: {}
+[0.310721] (-) TimerEvent: {}
+[0.411983] (-) TimerEvent: {}
+[0.515857] (-) TimerEvent: {}
+[0.616892] (-) TimerEvent: {}
+[0.721657] (-) TimerEvent: {}
+[0.823239] (-) TimerEvent: {}
+[0.931250] (-) TimerEvent: {}
+[1.034869] (-) TimerEvent: {}
+[1.136246] (-) TimerEvent: {}
+[1.236869] (-) TimerEvent: {}
+[1.337702] (-) TimerEvent: {}
+[1.438754] (-) TimerEvent: {}
+[1.540139] (-) TimerEvent: {}
+[1.641734] (-) TimerEvent: {}
+[1.743670] (-) TimerEvent: {}
+[1.846067] (-) TimerEvent: {}
+[1.947746] (-) TimerEvent: {}
+[2.048485] (-) TimerEvent: {}
+[2.149597] (-) TimerEvent: {}
+[2.251136] (-) TimerEvent: {}
+[2.355607] (-) TimerEvent: {}
+[2.456740] (-) TimerEvent: {}
+[2.558685] (-) TimerEvent: {}
+[2.659327] (-) TimerEvent: {}
+[2.760734] (-) TimerEvent: {}
+[2.862453] (-) TimerEvent: {}
+[2.963959] (-) TimerEvent: {}
+[3.065231] (-) TimerEvent: {}
+[3.174962] (-) TimerEvent: {}
+[3.286580] (-) TimerEvent: {}
+[3.388530] (-) TimerEvent: {}
+[3.492241] (-) TimerEvent: {}
+[3.598711] (-) TimerEvent: {}
+[3.699587] (-) TimerEvent: {}
+[3.804958] (-) TimerEvent: {}
+[3.910564] (-) TimerEvent: {}
+[4.015027] (-) TimerEvent: {}
+[4.133576] (-) TimerEvent: {}
+[4.234848] (-) TimerEvent: {}
+[4.335584] (-) TimerEvent: {}
+[4.436985] (-) TimerEvent: {}
+[4.557685] (-) TimerEvent: {}
+[4.661627] (-) TimerEvent: {}
+[4.763811] (-) TimerEvent: {}
+[4.866147] (-) TimerEvent: {}
+[4.971270] (-) TimerEvent: {}
+[5.073255] (-) TimerEvent: {}
+[5.174871] (-) TimerEvent: {}
+[5.277909] (-) TimerEvent: {}
+[5.383081] (-) TimerEvent: {}
+[5.493642] (-) TimerEvent: {}
+[5.602279] (-) TimerEvent: {}
+[5.705910] (-) TimerEvent: {}
+[5.828156] (-) TimerEvent: {}
+[5.931846] (-) TimerEvent: {}
+[6.032932] (-) TimerEvent: {}
+[6.134201] (-) TimerEvent: {}
+[6.236172] (-) TimerEvent: {}
+[6.344042] (-) TimerEvent: {}
+[6.446412] (-) TimerEvent: {}
+[6.552794] (-) TimerEvent: {}
+[6.667848] (-) TimerEvent: {}
+[6.768685] (-) TimerEvent: {}
+[6.871240] (-) TimerEvent: {}
+[6.973433] (-) TimerEvent: {}
+[7.075018] (-) TimerEvent: {}
+[7.199980] (-) TimerEvent: {}
+[7.302777] (-) TimerEvent: {}
+[7.415971] (-) TimerEvent: {}
+[7.519333] (-) TimerEvent: {}
+[7.621139] (-) TimerEvent: {}
+[7.725015] (-) TimerEvent: {}
+[7.828099] (-) TimerEvent: {}
+[7.976213] (-) TimerEvent: {}
+[8.086855] (-) TimerEvent: {}
+[8.191509] (-) TimerEvent: {}
+[8.297950] (-) TimerEvent: {}
+[8.407228] (-) TimerEvent: {}
+[8.512358] (-) TimerEvent: {}
+[8.615491] (-) TimerEvent: {}
+[8.734612] (-) TimerEvent: {}
+[8.835064] (-) TimerEvent: {}
+[8.937793] (-) TimerEvent: {}
+[9.042278] (-) TimerEvent: {}
+[9.147522] (-) TimerEvent: {}
+[9.252726] (-) TimerEvent: {}
+[9.357055] (-) TimerEvent: {}
+[9.460780] (-) TimerEvent: {}
+[9.561358] (-) TimerEvent: {}
+[9.664170] (-) TimerEvent: {}
+[9.765174] (-) TimerEvent: {}
+[9.872405] (-) TimerEvent: {}
+[9.981988] (-) TimerEvent: {}
+[10.083874] (-) TimerEvent: {}
+[10.187751] (-) TimerEvent: {}
+[10.295443] (-) TimerEvent: {}
+[10.424360] (-) TimerEvent: {}
+[10.527752] (-) TimerEvent: {}
+[10.628915] (-) TimerEvent: {}
+[10.748972] (-) TimerEvent: {}
+[10.852525] (-) TimerEvent: {}
+[10.958653] (-) TimerEvent: {}
+[11.060206] (-) TimerEvent: {}
+[11.161039] (-) TimerEvent: {}
+[11.266272] (-) TimerEvent: {}
+[11.368665] (-) TimerEvent: {}
+[11.478642] (-) TimerEvent: {}
+[11.585494] (-) TimerEvent: {}
+[11.688432] (-) TimerEvent: {}
+[11.800107] (-) TimerEvent: {}
+[11.902044] (-) TimerEvent: {}
+[12.016058] (-) TimerEvent: {}
+[12.121313] (-) TimerEvent: {}
+[12.224124] (-) TimerEvent: {}
+[12.325898] (-) TimerEvent: {}
+[12.431113] (-) TimerEvent: {}
+[12.531908] (-) TimerEvent: {}
+[12.632641] (-) TimerEvent: {}
+[12.740768] (-) TimerEvent: {}
+[12.843845] (-) TimerEvent: {}
+[12.945997] (-) TimerEvent: {}
+[13.074017] (-) TimerEvent: {}
+[13.180723] (-) TimerEvent: {}
+[13.297603] (-) TimerEvent: {}
+[13.419760] (-) TimerEvent: {}
+[13.522350] (-) TimerEvent: {}
+[13.628288] (-) TimerEvent: {}
+[13.731934] (-) TimerEvent: {}
+[13.837087] (-) TimerEvent: {}
+[13.946279] (-) TimerEvent: {}
+[14.046775] (-) TimerEvent: {}
+[14.147708] (-) TimerEvent: {}
+[14.249164] (-) TimerEvent: {}
+[14.354828] (-) TimerEvent: {}
+[14.459048] (-) TimerEvent: {}
+[14.564019] (-) TimerEvent: {}
+[14.666176] (-) TimerEvent: {}
+[14.770367] (-) TimerEvent: {}
+[14.874056] (-) TimerEvent: {}
+[14.975323] (-) TimerEvent: {}
+[15.079955] (-) TimerEvent: {}
+[15.180773] (-) TimerEvent: {}
+[15.281583] (-) TimerEvent: {}
+[15.382937] (-) TimerEvent: {}
+[15.485296] (-) TimerEvent: {}
+[15.586647] (-) TimerEvent: {}
+[15.688737] (-) TimerEvent: {}
+[15.789321] (-) TimerEvent: {}
+[15.890165] (-) TimerEvent: {}
+[15.992814] (-) TimerEvent: {}
+[16.079293] (demo_python_tf) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_tf', 'build', '--build-base', '/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build', 'install', '--record', '/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/install.log', '--install-scripts', '$base/lib/demo_python_tf', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zzs/chapt5/chapt5_ws/src/demo_python_tf', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2425', 'BUNDLED_DEBUGPY_PATH': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/zzs/chapt5/chapt5_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2261,unix/zzs:/tmp/.ICE-unix/2261', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/38f1f4f5_270f_4d06_97f5_b52843a8b71e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-6593bd510ae01f55.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/zzs/.config/Code/User/workspaceStorage/c36f9a3685b9c8f439e1493def2860dd/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QSH6U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-01b9e7e7b9.sock', 'GNOME_TERMINAL_SERVICE': ':1.164', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'NO_AT_BRIDGE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt5/chapt5_ws/build/demo_python_tf', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[16.100796] (-) TimerEvent: {}
+[16.218769] (-) TimerEvent: {}
+[16.320034] (-) TimerEvent: {}
+[16.421471] (-) TimerEvent: {}
+[16.522441] (-) TimerEvent: {}
+[16.626415] (-) TimerEvent: {}
+[16.727359] (-) TimerEvent: {}
+[16.828626] (-) TimerEvent: {}
+[16.931367] (-) TimerEvent: {}
+[17.005209] (demo_python_tf) StdoutLine: {'line': b'running egg_info\n'}
+[17.031687] (-) TimerEvent: {}
+[17.039006] (demo_python_tf) StdoutLine: {'line': b'writing ../../build/demo_python_tf/demo_python_tf.egg-info/PKG-INFO\n'}
+[17.039730] (demo_python_tf) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_tf/demo_python_tf.egg-info/dependency_links.txt\n'}
+[17.042746] (demo_python_tf) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_tf/demo_python_tf.egg-info/entry_points.txt\n'}
+[17.042816] (demo_python_tf) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_tf/demo_python_tf.egg-info/requires.txt\n'}
+[17.042906] (demo_python_tf) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_tf/demo_python_tf.egg-info/top_level.txt\n'}
+[17.115424] (demo_python_tf) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'\n"}
+[17.120552] (demo_python_tf) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[17.121039] (demo_python_tf) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_tf/demo_python_tf.egg-info/SOURCES.txt'\n"}
+[17.121466] (demo_python_tf) StdoutLine: {'line': b'running build\n'}
+[17.121680] (demo_python_tf) StdoutLine: {'line': b'running build_py\n'}
+[17.121955] (demo_python_tf) StdoutLine: {'line': b'copying demo_python_tf/static_tf_broadcaster.py -> /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf\n'}
+[17.122066] (demo_python_tf) StdoutLine: {'line': b'running install\n'}
+[17.131691] (demo_python_tf) StdoutLine: {'line': b'running install_lib\n'}
+[17.132293] (-) TimerEvent: {}
+[17.189044] (demo_python_tf) StdoutLine: {'line': b'copying /home/zzs/chapt5/chapt5_ws/build/demo_python_tf/build/lib/demo_python_tf/static_tf_broadcaster.py -> /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf\n'}
+[17.191417] (demo_python_tf) StdoutLine: {'line': b'byte-compiling /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf/static_tf_broadcaster.py to static_tf_broadcaster.cpython-312.pyc\n'}
+[17.193712] (demo_python_tf) StdoutLine: {'line': b'running install_data\n'}
+[17.196037] (demo_python_tf) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.232936] (-) TimerEvent: {}
+[17.333931] (-) TimerEvent: {}
+[17.371306] (demo_python_tf) StdoutLine: {'line': b"removing '/home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[17.371519] (demo_python_tf) StdoutLine: {'line': b'Copying ../../build/demo_python_tf/demo_python_tf.egg-info to /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/python3.12/site-packages/demo_python_tf-0.0.0-py3.12.egg-info\n'}
+[17.381406] (demo_python_tf) StdoutLine: {'line': b'running install_scripts\n'}
+[17.435292] (-) TimerEvent: {}
+[17.535654] (-) TimerEvent: {}
+[17.636419] (-) TimerEvent: {}
+[17.713247] (demo_python_tf) StdoutLine: {'line': b'Installing static_tf_broadcaster script to /home/zzs/chapt5/chapt5_ws/install/demo_python_tf/lib/demo_python_tf\n'}
+[17.713699] (demo_python_tf) StdoutLine: {'line': b"writing list of installed files to '/home/zzs/chapt5/chapt5_ws/build/demo_python_tf/install.log'\n"}
+[17.736943] (-) TimerEvent: {}
+[17.752437] (demo_python_tf) CommandEnded: {'returncode': 0}
+[17.837189] (-) TimerEvent: {}
+[17.843623] (demo_python_tf) JobEnded: {'identifier': 'demo_python_tf', 'rc': 0}
+[17.865552] (-) EventReactorShutdown: {}

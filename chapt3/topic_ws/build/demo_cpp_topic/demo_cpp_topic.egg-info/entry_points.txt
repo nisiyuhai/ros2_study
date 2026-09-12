@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_circle = demo_cpp_topic.turtle_circle:main
+turtle_move = demo_cpp_topic.turtle_move:main

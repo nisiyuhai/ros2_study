@@ -1,0 +1,14 @@
+{
+  "package_name": "turtle_my_interfaces",
+  "output_dir": "/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces/rosidl_generator_type_description/turtle_my_interfaces",
+  "idl_tuples": [
+    "/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces/rosidl_adapter/turtle_my_interfaces:srv/TurtleSrv.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

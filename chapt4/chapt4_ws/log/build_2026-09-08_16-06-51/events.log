@@ -1,0 +1,390 @@
+[0.000000] (-) TimerEvent: {}
+[0.000585] (chapt4_interfaces) JobQueued: {'identifier': 'chapt4_interfaces', 'dependencies': OrderedDict()}
+[0.000659] (demo_python_service) JobQueued: {'identifier': 'demo_python_service', 'dependencies': OrderedDict({'chapt4_interfaces': '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces'})}
+[0.000686] (chapt4_interfaces) JobStarted: {'identifier': 'chapt4_interfaces'}
+[0.047293] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'cmake'}
+[0.049306] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'build'}
+[0.050969] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt4', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2444', 'BUNDLED_DEBUGPY_PATH': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2289,unix/zzs:/tmp/.ICE-unix/2289', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac33db99_f687_494b_a196_f54583421f1b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f2f78af7769394e3.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/zzs/.config/Code/User/workspaceStorage/c40ca23511d0c0b00ec83def36e1461a/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1S5U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3c0ed9583e.sock', 'GNOME_TERMINAL_SERVICE': ':1.102', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099242] (-) TimerEvent: {}
+[0.202717] (-) TimerEvent: {}
+[0.303647] (-) TimerEvent: {}
+[0.404903] (-) TimerEvent: {}
+[0.505552] (-) TimerEvent: {}
+[0.607182] (-) TimerEvent: {}
+[0.699416] (chapt4_interfaces) StdoutLine: {'line': b'[  2%] Built target chapt4_interfaces__rs\n'}
+[0.708754] (-) TimerEvent: {}
+[0.709825] (chapt4_interfaces) StdoutLine: {'line': b'[  5%] Built target chapt4_interfaces__rosidl_generator_type_description\n'}
+[0.809079] (-) TimerEvent: {}
+[0.903707] (chapt4_interfaces) StdoutLine: {'line': b'[ 20%] Built target chapt4_interfaces__rosidl_generator_c\n'}
+[0.910210] (-) TimerEvent: {}
+[0.924541] (chapt4_interfaces) StdoutLine: {'line': b'[ 20%] Built target ament_cmake_python_copy_chapt4_interfaces\n'}
+[1.011238] (-) TimerEvent: {}
+[1.119396] (-) TimerEvent: {}
+[1.132254] (chapt4_interfaces) StdoutLine: {'line': b'[ 28%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.150871] (chapt4_interfaces) StdoutLine: {'line': b'[ 31%] Built target chapt4_interfaces__cpp\n'}
+[1.221313] (-) TimerEvent: {}
+[1.334697] (-) TimerEvent: {}
+[1.356068] (chapt4_interfaces) StdoutLine: {'line': b'[ 40%] Built target chapt4_interfaces__rosidl_typesupport_c\n'}
+[1.436887] (-) TimerEvent: {}
+[1.541116] (-) TimerEvent: {}
+[1.641588] (-) TimerEvent: {}
+[1.706417] (chapt4_interfaces) StdoutLine: {'line': b'[ 48%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.743658] (-) TimerEvent: {}
+[1.844887] (-) TimerEvent: {}
+[1.870433] (chapt4_interfaces) StdoutLine: {'line': b'[ 57%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.947588] (-) TimerEvent: {}
+[2.045004] (chapt4_interfaces) StdoutLine: {'line': b'[ 65%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.047799] (-) TimerEvent: {}
+[2.093981] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] Built target chapt4_interfaces__rosidl_typesupport_cpp\n'}
+[2.130124] (chapt4_interfaces) StdoutLine: {'line': b'[ 74%] Built target chapt4_interfaces\n'}
+[2.151051] (chapt4_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.151239] (-) TimerEvent: {}
+[2.203695] (chapt4_interfaces) StdoutLine: {'line': b'writing chapt4_interfaces.egg-info/PKG-INFO\n'}
+[2.206807] (chapt4_interfaces) StdoutLine: {'line': b'writing dependency_links to chapt4_interfaces.egg-info/dependency_links.txt\n'}
+[2.208875] (chapt4_interfaces) StdoutLine: {'line': b'writing top-level names to chapt4_interfaces.egg-info/top_level.txt\n'}
+[2.226024] (chapt4_interfaces) StdoutLine: {'line': b'[ 77%] Built target chapt4_interfaces__py\n'}
+[2.251687] (-) TimerEvent: {}
+[2.352804] (-) TimerEvent: {}
+[2.457184] (-) TimerEvent: {}
+[2.463935] (chapt4_interfaces) StdoutLine: {'line': b'[ 82%] Built target chapt4_interfaces__rosidl_generator_py\n'}
+[2.578651] (-) TimerEvent: {}
+[2.679510] (-) TimerEvent: {}
+[2.791798] (-) TimerEvent: {}
+[2.860808] (chapt4_interfaces) StdoutLine: {'line': b'[ 88%] Built target chapt4_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[2.896931] (-) TimerEvent: {}
+[2.975063] (chapt4_interfaces) StdoutLine: {'line': b'[ 94%] Built target chapt4_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[2.994979] (chapt4_interfaces) StdoutLine: {'line': b"reading manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[2.997469] (-) TimerEvent: {}
+[3.004167] (chapt4_interfaces) StdoutLine: {'line': b"writing manifest file 'chapt4_interfaces.egg-info/SOURCES.txt'\n"}
+[3.099171] (-) TimerEvent: {}
+[3.211390] (chapt4_interfaces) StdoutLine: {'line': b'[100%] Built target chapt4_interfaces_s__rosidl_typesupport_c\n'}
+[3.212487] (-) TimerEvent: {}
+[3.317902] (-) TimerEvent: {}
+[3.387831] (chapt4_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_chapt4_interfaces_egg\n'}
+[3.418097] (-) TimerEvent: {}
+[3.469801] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[3.473192] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'install'}
+[3.494017] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces'], 'cwd': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt4', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2444', 'BUNDLED_DEBUGPY_PATH': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2289,unix/zzs:/tmp/.ICE-unix/2289', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac33db99_f687_494b_a196_f54583421f1b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f2f78af7769394e3.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/zzs/.config/Code/User/workspaceStorage/c40ca23511d0c0b00ec83def36e1461a/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1S5U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3c0ed9583e.sock', 'GNOME_TERMINAL_SERVICE': ':1.102', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt4/chapt4_ws/build/chapt4_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[3.510275] (chapt4_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.513165] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces\n'}
+[3.514140] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.json\n'}
+[3.514815] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[3.515428] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[3.516173] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.h\n'}
+[3.516371] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[3.516867] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.h\n'}
+[3.517089] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.h\n'}
+[3.517780] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__functions.c\n'}
+[3.517873] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__description.c\n'}
+[3.517933] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.h\n'}
+[3.517985] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c\n'}
+[3.518376] (-) TimerEvent: {}
+[3.518783] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[3.519578] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.520035] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh\n'}
+[3.520605] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv\n'}
+[3.521866] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so\n'}
+[3.522740] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[3.522902] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[3.523018] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[3.523081] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h\n'}
+[3.523148] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[3.523255] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.524210] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.524733] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[3.526777] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[3.526880] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/face_detector.hpp\n'}
+[3.526989] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[3.527049] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__traits.hpp\n'}
+[3.527103] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__struct.hpp\n'}
+[3.527153] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__builder.hpp\n'}
+[3.527203] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.hpp\n'}
+[3.527254] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[3.527301] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.527349] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[3.528895] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[3.529501] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[3.530859] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/dds_fastrtps\n'}
+[3.530969] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.531037] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[3.531094] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.531146] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.532857] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[3.532956] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[3.533015] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[3.533067] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h\n'}
+[3.533116] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.c\n'}
+[3.533886] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg\n'}
+[3.535314] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.536605] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.539295] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so\n'}
+[3.539430] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces\n'}
+[3.539575] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv\n'}
+[3.539720] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail\n'}
+[3.539893] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.542529] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/include/chapt4_interfaces/chapt4_interfaces/srv/detail/face_detector__type_support.cpp\n'}
+[3.543045] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.543520] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.545130] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh\n'}
+[3.545961] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv\n'}
+[3.546040] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info\n'}
+[3.546110] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[3.546163] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[3.546412] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[3.546520] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[3.550452] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces\n'}
+[3.550820] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.551023] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.551866] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv\n'}
+[3.552801] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/_face_detector.py\n'}
+[3.553016] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/__init__.py\n'}
+[3.553890] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv/_face_detector_s.c\n'}
+[3.554147] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[3.554590] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/__init__.py\n'}
+[3.554662] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.so\n'}
+[3.554719] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.555916] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/_chapt4_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.619777] (-) TimerEvent: {}
+[3.686748] (chapt4_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces'...\n"}
+[3.687083] (chapt4_interfaces) StdoutLine: {'line': b"Listing '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/srv'...\n"}
+[3.707036] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[3.708765] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[3.710994] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.so\n'}
+[3.713936] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_py.so\n'}
+[3.716960] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/rust_packages/chapt4_interfaces\n'}
+[3.717832] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust\n'}
+[3.718932] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src\n'}
+[3.720004] (-) TimerEvent: {}
+[3.721172] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/lib.rs\n'}
+[3.724694] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv\n'}
+[3.724849] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv/rmw.rs\n'}
+[3.728215] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/src/srv.rs\n'}
+[3.728381] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/build.rs\n'}
+[3.728447] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/rust/Cargo.toml\n'}
+[3.728512] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl\n'}
+[3.728633] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv\n'}
+[3.728861] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces\n'}
+[3.728943] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces\n'}
+[3.729006] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh\n'}
+[3.729071] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.729129] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh\n'}
+[3.729185] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv\n'}
+[3.729240] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash\n'}
+[3.729295] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh\n'}
+[3.729349] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh\n'}
+[3.729404] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv\n'}
+[3.729465] (chapt4_interfaces) StdoutLine: {'line': b'-- Installing: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv\n'}
+[3.729514] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces\n'}
+[3.729563] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.729610] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.729657] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.729703] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.732874] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.733669] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.733799] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.733967] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.734078] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.735471] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.736170] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.736875] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.737364] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.738918] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.742404] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.743705] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.746032] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/export_chapt4_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.746436] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.747797] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.750118] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.750878] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.750954] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.751011] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.751063] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.751112] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[3.751167] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake\n'}
+[3.751226] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake\n'}
+[3.751283] (chapt4_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.xml\n'}
+[3.769646] (chapt4_interfaces) CommandEnded: {'returncode': 0}
+[3.823043] (-) TimerEvent: {}
+[3.895950] (chapt4_interfaces) JobEnded: {'identifier': 'chapt4_interfaces', 'rc': 0}
+[3.897727] (demo_python_service) JobStarted: {'identifier': 'demo_python_service'}
+[3.929635] (-) TimerEvent: {}
+[4.034044] (-) TimerEvent: {}
+[4.138366] (-) TimerEvent: {}
+[4.239038] (-) TimerEvent: {}
+[4.339508] (-) TimerEvent: {}
+[4.442059] (-) TimerEvent: {}
+[4.542706] (-) TimerEvent: {}
+[4.643309] (-) TimerEvent: {}
+[4.743592] (-) TimerEvent: {}
+[4.844118] (-) TimerEvent: {}
+[4.945948] (-) TimerEvent: {}
+[5.048594] (-) TimerEvent: {}
+[5.149258] (-) TimerEvent: {}
+[5.253431] (-) TimerEvent: {}
+[5.357102] (-) TimerEvent: {}
+[5.459715] (-) TimerEvent: {}
+[5.562399] (-) TimerEvent: {}
+[5.663415] (-) TimerEvent: {}
+[5.794346] (-) TimerEvent: {}
+[5.898085] (-) TimerEvent: {}
+[6.013619] (-) TimerEvent: {}
+[6.126167] (-) TimerEvent: {}
+[6.238162] (-) TimerEvent: {}
+[6.338966] (-) TimerEvent: {}
+[6.444283] (-) TimerEvent: {}
+[6.557059] (-) TimerEvent: {}
+[6.674938] (-) TimerEvent: {}
+[6.783718] (-) TimerEvent: {}
+[6.890166] (-) TimerEvent: {}
+[6.998045] (-) TimerEvent: {}
+[7.124075] (-) TimerEvent: {}
+[7.249902] (-) TimerEvent: {}
+[7.380059] (-) TimerEvent: {}
+[7.486743] (-) TimerEvent: {}
+[7.596326] (-) TimerEvent: {}
+[7.718705] (-) TimerEvent: {}
+[7.847737] (-) TimerEvent: {}
+[7.971358] (-) TimerEvent: {}
+[8.072663] (-) TimerEvent: {}
+[8.177071] (-) TimerEvent: {}
+[8.282071] (-) TimerEvent: {}
+[8.387170] (-) TimerEvent: {}
+[8.490632] (-) TimerEvent: {}
+[8.593053] (-) TimerEvent: {}
+[8.696361] (-) TimerEvent: {}
+[8.801060] (-) TimerEvent: {}
+[8.902758] (-) TimerEvent: {}
+[9.012076] (-) TimerEvent: {}
+[9.114970] (-) TimerEvent: {}
+[9.221945] (-) TimerEvent: {}
+[9.325606] (-) TimerEvent: {}
+[9.429829] (-) TimerEvent: {}
+[9.536684] (-) TimerEvent: {}
+[9.638159] (-) TimerEvent: {}
+[9.741823] (-) TimerEvent: {}
+[9.845971] (-) TimerEvent: {}
+[9.949942] (-) TimerEvent: {}
+[10.053206] (-) TimerEvent: {}
+[10.158245] (-) TimerEvent: {}
+[10.262507] (-) TimerEvent: {}
+[10.366179] (-) TimerEvent: {}
+[10.470474] (-) TimerEvent: {}
+[10.575240] (-) TimerEvent: {}
+[10.681950] (-) TimerEvent: {}
+[10.788264] (-) TimerEvent: {}
+[10.890843] (-) TimerEvent: {}
+[10.993615] (-) TimerEvent: {}
+[11.097241] (-) TimerEvent: {}
+[11.199688] (-) TimerEvent: {}
+[11.303065] (-) TimerEvent: {}
+[11.408944] (-) TimerEvent: {}
+[11.511583] (-) TimerEvent: {}
+[11.613703] (-) TimerEvent: {}
+[11.717442] (-) TimerEvent: {}
+[11.821273] (-) TimerEvent: {}
+[11.927221] (-) TimerEvent: {}
+[12.031762] (-) TimerEvent: {}
+[12.136377] (-) TimerEvent: {}
+[12.239291] (-) TimerEvent: {}
+[12.350728] (-) TimerEvent: {}
+[12.468921] (-) TimerEvent: {}
+[12.573669] (-) TimerEvent: {}
+[12.677649] (-) TimerEvent: {}
+[12.781779] (-) TimerEvent: {}
+[12.884454] (-) TimerEvent: {}
+[12.993148] (-) TimerEvent: {}
+[13.101535] (-) TimerEvent: {}
+[13.205457] (-) TimerEvent: {}
+[13.308912] (-) TimerEvent: {}
+[13.413284] (-) TimerEvent: {}
+[13.516068] (-) TimerEvent: {}
+[13.622012] (-) TimerEvent: {}
+[13.726216] (-) TimerEvent: {}
+[13.831329] (-) TimerEvent: {}
+[13.932651] (-) TimerEvent: {}
+[14.036721] (-) TimerEvent: {}
+[14.138379] (-) TimerEvent: {}
+[14.241923] (-) TimerEvent: {}
+[14.343783] (-) TimerEvent: {}
+[14.446325] (-) TimerEvent: {}
+[14.549545] (-) TimerEvent: {}
+[14.652756] (-) TimerEvent: {}
+[14.754787] (-) TimerEvent: {}
+[14.856740] (-) TimerEvent: {}
+[14.959020] (-) TimerEvent: {}
+[15.063394] (-) TimerEvent: {}
+[15.167311] (-) TimerEvent: {}
+[15.272845] (-) TimerEvent: {}
+[15.373682] (-) TimerEvent: {}
+[15.479920] (-) TimerEvent: {}
+[15.580587] (-) TimerEvent: {}
+[15.685253] (demo_python_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/demo_python_service', 'build', '--build-base', '/home/zzs/chapt4/chapt4_ws/build/demo_python_service/build', 'install', '--record', '/home/zzs/chapt4/chapt4_ws/build/demo_python_service/install.log', '--install-scripts', '$base/lib/demo_python_service', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zzs/chapt4/chapt4_ws/src/demo_python_service', 'env': {'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:en', 'USER': 'zzs', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/zzs', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/zzs/chapt4', 'TERM_PROGRAM_VERSION': '1.136.1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'zh_CN.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2444', 'BUNDLED_DEBUGPY_PATH': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'zzs', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zzs', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/zzs/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/zzs/.local/bin:/home/zzs/.local/bin:/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts:/home/zzs/.local/bin', 'SESSION_MANAGER': 'local/zzs:@/tmp/.ICE-unix/2289,unix/zzs:/tmp/.ICE-unix/2289', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ac33db99_f687_494b_a196_f54583421f1b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/zzs/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-f2f78af7769394e3.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/zzs/.config/Code/User/workspaceStorage/c40ca23511d0c0b00ec83def36e1461a/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.H1S5U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3c0ed9583e.sock', 'GNOME_TERMINAL_SERVICE': ':1.102', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/zzs/chapt4/chapt4_ws/build/demo_python_service', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zzs/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[15.715363] (-) TimerEvent: {}
+[15.816106] (-) TimerEvent: {}
+[15.919589] (-) TimerEvent: {}
+[16.020365] (-) TimerEvent: {}
+[16.122103] (-) TimerEvent: {}
+[16.226240] (-) TimerEvent: {}
+[16.327847] (-) TimerEvent: {}
+[16.431351] (-) TimerEvent: {}
+[16.532353] (-) TimerEvent: {}
+[16.634679] (-) TimerEvent: {}
+[16.736032] (-) TimerEvent: {}
+[16.839018] (-) TimerEvent: {}
+[16.942929] (-) TimerEvent: {}
+[17.043798] (-) TimerEvent: {}
+[17.144715] (-) TimerEvent: {}
+[17.223111] (demo_python_service) StdoutLine: {'line': b'running egg_info\n'}
+[17.247995] (-) TimerEvent: {}
+[17.327944] (demo_python_service) StdoutLine: {'line': b'writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO\n'}
+[17.332129] (demo_python_service) StdoutLine: {'line': b'writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt\n'}
+[17.335749] (demo_python_service) StdoutLine: {'line': b'writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt\n'}
+[17.337509] (demo_python_service) StdoutLine: {'line': b'writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt\n'}
+[17.343111] (demo_python_service) StdoutLine: {'line': b'writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt\n'}
+[17.348680] (-) TimerEvent: {}
+[17.450966] (-) TimerEvent: {}
+[17.557548] (-) TimerEvent: {}
+[17.659891] (-) TimerEvent: {}
+[17.764510] (-) TimerEvent: {}
+[17.869413] (-) TimerEvent: {}
+[17.881575] (demo_python_service) StdoutLine: {'line': b"reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[17.891549] (demo_python_service) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[17.903261] (demo_python_service) StdoutLine: {'line': b"writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'\n"}
+[17.905882] (demo_python_service) StdoutLine: {'line': b'running build\n'}
+[17.910547] (demo_python_service) StdoutLine: {'line': b'running build_py\n'}
+[17.912929] (demo_python_service) StdoutLine: {'line': b'copying demo_python_service/face_detect_client_node.py -> /home/zzs/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service\n'}
+[17.923730] (demo_python_service) StdoutLine: {'line': b'running install\n'}
+[17.972679] (demo_python_service) StdoutLine: {'line': b'running install_lib\n'}
+[17.972870] (-) TimerEvent: {}
+[18.075024] (-) TimerEvent: {}
+[18.094882] (demo_python_service) StdoutLine: {'line': b'copying /home/zzs/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service\n'}
+[18.103422] (demo_python_service) StdoutLine: {'line': b'byte-compiling /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-312.pyc\n'}
+[18.110998] (demo_python_service) StdoutLine: {'line': b'running install_data\n'}
+[18.113662] (demo_python_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[18.181740] (-) TimerEvent: {}
+[18.260007] (demo_python_service) StdoutLine: {'line': b"removing '/home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[18.266121] (demo_python_service) StdoutLine: {'line': b'Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info\n'}
+[18.280452] (demo_python_service) StdoutLine: {'line': b'running install_scripts\n'}
+[18.283007] (-) TimerEvent: {}
+[18.386178] (-) TimerEvent: {}
+[18.487676] (-) TimerEvent: {}
+[18.590514] (-) TimerEvent: {}
+[18.694470] (-) TimerEvent: {}
+[18.796049] (-) TimerEvent: {}
+[18.896960] (-) TimerEvent: {}
+[19.002459] (-) TimerEvent: {}
+[19.103340] (-) TimerEvent: {}
+[19.205049] (-) TimerEvent: {}
+[19.254778] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_client_node script to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service\n'}
+[19.264915] (demo_python_service) StdoutLine: {'line': b'Installing face_detect_node script to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service\n'}
+[19.265226] (demo_python_service) StdoutLine: {'line': b'Installing learn_face_detect script to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service\n'}
+[19.281523] (demo_python_service) StdoutLine: {'line': b"writing list of installed files to '/home/zzs/chapt4/chapt4_ws/build/demo_python_service/install.log'\n"}
+[19.305885] (-) TimerEvent: {}
+[19.408024] (-) TimerEvent: {}
+[19.510138] (-) TimerEvent: {}
+[19.610926] (-) TimerEvent: {}
+[19.712216] (-) TimerEvent: {}
+[19.784766] (demo_python_service) CommandEnded: {'returncode': 0}
+[19.814942] (-) TimerEvent: {}
+[19.875472] (demo_python_service) JobEnded: {'identifier': 'demo_python_service', 'rc': 0}
+[19.880064] (-) EventReactorShutdown: {}

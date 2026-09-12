@@ -1,0 +1,52 @@
+[0.094s] Invoking command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt6/chapt6_ws/build/zzs_description -- -j2 -l2
+[0.464s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.083s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.508s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.508s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.509s] -- Added test 'lint_cmake' to check CMake code style
+[1.513s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.514s] -- Added test 'xmllint' to check XML markup files
+[1.521s] -- Configuring done (1.1s)
+[1.539s] -- Generating done (0.0s)
+[1.552s] -- Build files have been written to: /home/zzs/chapt6/chapt6_ws/build/zzs_description
+[1.626s] Invoked command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt6/chapt6_ws/build/zzs_description -- -j2 -l2
+[1.655s] Invoking command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt6/chapt6_ws/build/zzs_description
+[1.675s] -- Install configuration: ""
+[1.675s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch
+[1.676s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch/gazebo_sim.launch.py
+[1.677s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch/display_robot.launch.py
+[1.678s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf
+[1.678s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.xacro
+[1.678s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.gv
+[1.678s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.pdf
+[1.680s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor
+[1.680s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/imu.urdf.xacro
+[1.680s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/camera.urdf.xacro
+[1.680s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/laser.urdf.xacro
+[1.680s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.urdf
+[1.680s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/common_intertial.xacro
+[1.680s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator
+[1.681s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator/wheel.urdf.xacro
+[1.681s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator/caster.urdf.xacro
+[1.681s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/robot.urdf.xacro
+[1.681s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/base.urdf.xacro
+[1.682s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/config
+[1.683s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/config/display_robot_model.rviz
+[1.683s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/world
+[1.683s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/world/world1.sdf
+[1.684s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/ament_index/resource_index/package_run_dependencies/zzs_description
+[1.685s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/ament_index/resource_index/parent_prefix_path/zzs_description
+[1.686s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/ament_prefix_path.sh
+[1.686s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/ament_prefix_path.dsv
+[1.688s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/path.sh
+[1.689s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/environment/path.dsv
+[1.689s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.bash
+[1.689s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.sh
+[1.689s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.zsh
+[1.689s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/local_setup.dsv
+[1.690s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/package.dsv
+[1.690s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/ament_index/resource_index/packages/zzs_description
+[1.691s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/cmake/zzs_descriptionConfig.cmake
+[1.691s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/cmake/zzs_descriptionConfig-version.cmake
+[1.694s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/package.xml
+[1.703s] Invoked command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt6/chapt6_ws/build/zzs_description

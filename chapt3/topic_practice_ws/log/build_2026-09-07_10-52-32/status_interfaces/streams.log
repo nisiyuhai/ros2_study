@@ -1,0 +1,26 @@
+[0.047s] Invoking command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces
+[0.285s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.675s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.769s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.798s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.849s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.889s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.938s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[0.938s]   By not providing "Findrosidldefault_generators.cmake" in CMAKE_MODULE_PATH
+[0.938s]   this project has asked CMake to find a package configuration file provided
+[0.938s]   by "rosidldefault_generators", but CMake did not find one.
+[0.939s] 
+[0.939s]   Could not find a package configuration file provided by
+[0.939s]   "rosidldefault_generators" with any of the following names:
+[0.939s] 
+[0.939s]     rosidldefault_generatorsConfig.cmake
+[0.939s]     rosidldefault_generators-config.cmake
+[0.939s] 
+[0.939s]   Add the installation prefix of "rosidldefault_generators" to
+[0.939s]   CMAKE_PREFIX_PATH or set "rosidldefault_generators_DIR" to a directory
+[0.939s]   containing one of the above files.  If "rosidldefault_generators" provides
+[0.939s]   a separate development package or SDK, be sure it has been installed.
+[0.939s] 
+[0.939s] [0m
+[0.940s] -- Configuring incomplete, errors occurred!
+[0.946s] Invoked command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces

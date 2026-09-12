@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turtle_my_interfaces__py",
+		"source" : "/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces/turtle_my_interfaces__py"
+	}
+}

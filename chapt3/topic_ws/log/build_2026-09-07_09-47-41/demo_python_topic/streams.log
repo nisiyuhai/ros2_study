@@ -1,0 +1,23 @@
+[2.407s] Invoking command in '/home/zzs/chapt3/topic_ws/src/demo_python_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zzs/chapt3/topic_ws/build/demo_python_topic/build install --record /home/zzs/chapt3/topic_ws/build/demo_python_topic/install.log --install-scripts $base/lib/demo_python_topic --single-version-externally-managed install_data
+[2.774s] running egg_info
+[2.797s] writing ../../build/demo_python_topic/demo_python_topic.egg-info/PKG-INFO
+[2.798s] writing dependency_links to ../../build/demo_python_topic/demo_python_topic.egg-info/dependency_links.txt
+[2.799s] writing entry points to ../../build/demo_python_topic/demo_python_topic.egg-info/entry_points.txt
+[2.800s] writing requirements to ../../build/demo_python_topic/demo_python_topic.egg-info/requires.txt
+[2.801s] writing top-level names to ../../build/demo_python_topic/demo_python_topic.egg-info/top_level.txt
+[2.859s] reading manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[2.862s] adding license file 'LICENSE'
+[2.862s] writing manifest file '../../build/demo_python_topic/demo_python_topic.egg-info/SOURCES.txt'
+[2.862s] running build
+[2.863s] running build_py
+[2.865s] running install
+[2.877s] running install_lib
+[2.901s] running install_data
+[2.902s] running install_egg_info
+[2.925s] removing '/home/zzs/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages/demo_python_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[2.929s] Copying ../../build/demo_python_topic/demo_python_topic.egg-info to /home/zzs/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages/demo_python_topic-0.0.0-py3.12.egg-info
+[2.932s] running install_scripts
+[3.412s] Installing novel_pub_node script to /home/zzs/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[3.417s] Installing novel_sub_node script to /home/zzs/chapt3/topic_ws/install/demo_python_topic/lib/demo_python_topic
+[3.417s] writing list of installed files to '/home/zzs/chapt3/topic_ws/build/demo_python_topic/install.log'
+[3.530s] Invoked command in '/home/zzs/chapt3/topic_ws/src/demo_python_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_ws/build/demo_python_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_ws/install/demo_python_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_topic build --build-base /home/zzs/chapt3/topic_ws/build/demo_python_topic/build install --record /home/zzs/chapt3/topic_ws/build/demo_python_topic/install.log --install-scripts $base/lib/demo_python_topic --single-version-externally-managed install_data

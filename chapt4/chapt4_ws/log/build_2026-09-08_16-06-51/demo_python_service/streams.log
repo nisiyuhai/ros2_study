@@ -1,0 +1,27 @@
+[11.803s] Invoking command in '/home/zzs/chapt4/chapt4_ws/src/demo_python_service': AMENT_PREFIX_PATH=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzs/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/zzs/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/zzs/chapt4/chapt4_ws/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data
+[13.326s] running egg_info
+[13.430s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[13.435s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[13.438s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[13.440s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[13.445s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[13.987s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[14.003s] adding license file 'LICENSE'
+[14.006s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[14.013s] running build
+[14.013s] running build_py
+[14.015s] copying demo_python_service/face_detect_client_node.py -> /home/zzs/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service
+[14.026s] running install
+[14.075s] running install_lib
+[14.197s] copying /home/zzs/chapt4/chapt4_ws/build/demo_python_service/build/lib/demo_python_service/face_detect_client_node.py -> /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service
+[14.208s] byte-compiling /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service/face_detect_client_node.py to face_detect_client_node.cpython-312.pyc
+[14.213s] running install_data
+[14.216s] running install_egg_info
+[14.363s] removing '/home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info' (and everything under it)
+[14.369s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages/demo_python_service-0.0.0-py3.12.egg-info
+[14.383s] running install_scripts
+[15.357s] Installing face_detect_client_node script to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[15.367s] Installing face_detect_node script to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[15.368s] Installing learn_face_detect script to /home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/demo_python_service
+[15.384s] writing list of installed files to '/home/zzs/chapt4/chapt4_ws/build/demo_python_service/install.log'
+[15.890s] Invoked command in '/home/zzs/chapt4/chapt4_ws/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/zzs/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt4/chapt4_ws/install/demo_python_service/lib/python3.12/site-packages:/home/zzs/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/zzs/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/zzs/chapt4/chapt4_ws/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data

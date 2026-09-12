@@ -1,0 +1,232 @@
+[0.034s] Invoking command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces
+[0.076s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.416s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[0.455s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.466s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.484s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.522s] -- Found rosidl_default_generators: 1.6.1 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.536s] -- Found rosidl_adapter: 4.6.9 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.442s] -- Found ament_cmake_ros: 0.12.1 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.391s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.748s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.756s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.941s] -- Found PythonExtra: /usr/bin/python3  
+[3.614s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.719s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.719s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.764s] -- Added test 'lint_cmake' to check CMake code style
+[3.766s] -- Added test 'xmllint' to check XML markup files
+[3.771s] -- Configuring done (3.7s)
+[3.833s] -- Generating done (0.0s)
+[3.851s] -- Build files have been written to: /home/zzs/chapt3/topic_practice_ws/build/status_interfaces
+[3.866s] Invoked command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/zzs/chapt3/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/zzs/chapt3/topic_practice_ws/install/status_interfaces
+[3.873s] Invoking command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt3/topic_practice_ws/build/status_interfaces -- -j2 -l2
+[3.989s] [  2%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[3.993s] [  5%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[4.313s] [  5%] Built target status_interfaces__rosidl_generator_type_description
+[4.365s] [  5%] Built target ament_cmake_python_copy_status_interfaces
+[4.411s] [  5%] Built target status_interfaces__rs
+[4.422s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.429s] [ 11%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.896s] [ 11%] Built target status_interfaces__cpp
+[5.034s] [ 14%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__description.c.o[0m
+[5.224s] running egg_info
+[5.224s] creating status_interfaces.egg-info
+[5.247s] writing status_interfaces.egg-info/PKG-INFO
+[5.249s] writing dependency_links to status_interfaces.egg-info/dependency_links.txt
+[5.249s] writing top-level names to status_interfaces.egg-info/top_level.txt
+[5.249s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[5.249s] [ 17%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__functions.c.o[0m
+[5.327s] reading manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[5.328s] writing manifest file 'status_interfaces.egg-info/SOURCES.txt'
+[5.343s] [ 20%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_c.dir/rosidl_generator_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[5.381s] [ 20%] Built target ament_cmake_python_build_status_interfaces_egg
+[5.400s] [ 22%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_c.so[0m
+[5.478s] [ 22%] Built target status_interfaces__rosidl_generator_c
+[5.498s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[5.499s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.776s] [ 31%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[5.881s] [ 34%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/status_interfaces/msg/detail/system_status__type_support_c.cpp.o[0m
+[8.630s] [ 37%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_cpp.so[0m
+[8.725s] [ 37%] Built target status_interfaces__rosidl_typesupport_cpp
+[8.749s] [ 40%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.753s] [ 42%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.999s] [ 42%] Built target status_interfaces__rosidl_typesupport_fastrtps_c
+[9.018s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.296s] [ 48%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/status_interfaces/msg/detail/dds_fastrtps/system_status__type_support.cpp.o[0m
+[9.377s] [ 51%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/status_interfaces/msg/detail/system_status__type_support.c.o[0m
+[9.437s] [ 54%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_typesupport_introspection_c.so[0m
+[9.497s] [ 54%] Built target status_interfaces__rosidl_typesupport_introspection_c
+[9.522s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[9.833s] [ 60%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/status_interfaces/msg/system_status__type_support.cpp.o[0m
+[9.903s] [ 62%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_c.so[0m
+[9.976s] [ 62%] Built target status_interfaces__rosidl_typesupport_c
+[9.998s] [ 65%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.025s] [ 68%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.190s] [ 68%] Built target status_interfaces__rosidl_typesupport_fastrtps_cpp
+[10.372s] [ 71%] [32mBuilding CXX object CMakeFiles/status_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/status_interfaces/msg/detail/system_status__type_support.cpp.o[0m
+[10.762s] [ 74%] [32m[1mLinking CXX shared library libstatus_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[10.861s] [ 74%] Built target status_interfaces__rosidl_typesupport_introspection_cpp
+[10.902s] [ 74%] Built target status_interfaces
+[10.939s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.343s] [ 77%] Built target status_interfaces__py
+[11.383s] [ 80%] [32mBuilding C object CMakeFiles/status_interfaces__rosidl_generator_py.dir/rosidl_generator_py/status_interfaces/msg/_system_status_s.c.o[0m
+[11.657s] [ 82%] [32m[1mLinking C shared library libstatus_interfaces__rosidl_generator_py.so[0m
+[11.728s] [ 82%] Built target status_interfaces__rosidl_generator_py
+[11.762s] [ 88%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.763s] [ 88%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.900s] [ 91%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[11.933s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[11.954s] [ 94%] Built target status_interfaces_s__rosidl_typesupport_introspection_c
+[11.992s] [ 94%] Built target status_interfaces_s__rosidl_typesupport_fastrtps_c
+[12.008s] [ 97%] [32mBuilding C object CMakeFiles/status_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[12.133s] [100%] [32m[1mLinking C shared module rosidl_generator_py/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so[0m
+[12.191s] [100%] Built target status_interfaces_s__rosidl_typesupport_c
+[12.213s] Invoked command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt3/topic_practice_ws/build/status_interfaces -- -j2 -l2
+[12.228s] Invoking command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt3/topic_practice_ws/build/status_interfaces
+[12.242s] -- Install configuration: ""
+[12.242s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rosidl_interfaces/status_interfaces
+[12.243s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.json
+[12.243s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.243s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.244s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.h
+[12.244s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_c__visibility_control.h
+[12.244s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.h
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.c
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__description.c
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.h
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__functions.h
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.sh
+[12.245s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/library_path.dsv
+[12.246s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so
+[12.247s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_c.so" to ""
+[12.247s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.247s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.247s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.247s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_c.h
+[12.248s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[12.248s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so
+[12.248s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[12.248s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.248s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.248s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[12.248s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.249s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__builder.hpp
+[12.249s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.hpp
+[12.249s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__traits.hpp
+[12.249s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__struct.hpp
+[12.249s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/system_status.hpp
+[12.250s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.250s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.250s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.250s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.250s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_fastrtps_cpp.hpp
+[12.250s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/dds_fastrtps
+[12.250s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[12.252s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[12.252s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.252s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.253s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.253s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.253s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.c
+[12.254s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_c.h
+[12.254s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so
+[12.254s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[12.254s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so
+[12.254s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_c.so" to ""
+[12.255s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces
+[12.255s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg
+[12.256s] -- Up-to-date: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail
+[12.256s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__rosidl_typesupport_introspection_cpp.hpp
+[12.257s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/include/status_interfaces/status_interfaces/msg/detail/system_status__type_support.cpp
+[12.257s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so
+[12.258s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so
+[12.258s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_typesupport_cpp.so" to ""
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.sh
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/pythonpath.dsv
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[12.258s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces
+[12.259s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.259s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.259s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_c.c
+[12.259s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/_status_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.259s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py
+[12.260s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg
+[12.260s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py
+[12.260s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py
+[12.260s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status_s.c
+[12.260s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.260s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[12.314s] Listing '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces'...
+[12.314s] Compiling '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/__init__.py'...
+[12.314s] Listing '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg'...
+[12.314s] Compiling '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/__init__.py'...
+[12.314s] Compiling '/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/msg/_system_status.py'...
+[12.323s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[12.323s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[12.323s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so
+[12.324s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[12.324s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so
+[12.325s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/python3.12/site-packages/status_interfaces/status_interfaces_s__rosidl_typesupport_c.so" to ""
+[12.325s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so
+[12.325s] -- Set non-toolchain portion of runtime path of "/home/zzs/chapt3/topic_practice_ws/install/status_interfaces/lib/libstatus_interfaces__rosidl_generator_py.so" to ""
+[12.325s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/rust_packages/status_interfaces
+[12.326s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust
+[12.326s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src
+[12.327s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/lib.rs
+[12.327s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg
+[12.327s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg/rmw.rs
+[12.329s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/src/msg.rs
+[12.330s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/build.rs
+[12.330s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/rust/Cargo.toml
+[12.330s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.idl
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/msg/SystemStatus.msg
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/package_run_dependencies/status_interfaces
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/parent_prefix_path/status_interfaces
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.sh
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/ament_prefix_path.dsv
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.sh
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/environment/path.dsv
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.bash
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.sh
+[12.331s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.zsh
+[12.333s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/local_setup.dsv
+[12.333s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv
+[12.334s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/ament_index/resource_index/packages/status_interfaces
+[12.334s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport.cmake
+[12.334s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cExport-noconfig.cmake
+[12.334s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[12.335s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[12.336s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_cppExport.cmake
+[12.337s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[12.337s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[12.337s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[12.337s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[12.337s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport.cmake
+[12.337s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[12.337s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[12.338s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[12.338s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport.cmake
+[12.338s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[12.338s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport.cmake
+[12.338s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/export_status_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[12.338s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake-extras.cmake
+[12.338s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig.cmake
+[12.339s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/cmake/status_interfacesConfig-version.cmake
+[12.340s] -- Installing: /home/zzs/chapt3/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.xml
+[12.344s] Invoked command in '/home/zzs/chapt3/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt3/topic_practice_ws/build/status_interfaces

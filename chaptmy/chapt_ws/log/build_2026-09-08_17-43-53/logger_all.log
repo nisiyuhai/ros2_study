@@ -1,0 +1,208 @@
+[0.408s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.408s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7af9f5366150>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7af9f5365eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7af9f5365eb0>>)
+[0.547s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.549s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.549s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/zzs/chaptmy/chapt_ws'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.628s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.629s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.630s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.631s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.634s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extension 'ignore'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extension 'ignore_ament_install'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extensions ['colcon_pkg']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extension 'colcon_pkg'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extensions ['colcon_meta']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extension 'colcon_meta'
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extensions ['ros']
+[0.635s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_interfaces) by extension 'ros'
+[0.647s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_my_interfaces' with type 'ros.ament_cmake' and name 'turtle_my_interfaces'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extensions ['ignore', 'ignore_ament_install']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extension 'ignore'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extension 'ignore_ament_install'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extensions ['colcon_pkg']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extension 'colcon_pkg'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extensions ['colcon_meta']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_my_service) by extension 'ros'
+[0.650s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_my_service' with type 'ros.ament_python' and name 'turtle_my_service'
+[0.650s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.695s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.695s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.703s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/zzs/chaptmy/chapt_ws/install
+[0.705s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/jazzy
+[0.706s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.848s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.850s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_my_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces', 'merge_install': False, 'path': '/home/zzs/chaptmy/chapt_ws/src/turtle_my_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'cmake_target' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.850s] Level 5:colcon.colcon_core.verb:set package 'turtle_my_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.850s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_my_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/zzs/chaptmy/chapt_ws/build/turtle_my_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service', 'merge_install': False, 'path': '/home/zzs/chaptmy/chapt_ws/src/turtle_my_service', 'symlink_install': False, 'test_result_base': None}
+[0.851s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.852s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.854s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/zzs/chaptmy/chapt_ws/src/turtle_my_interfaces' with build type 'ament_cmake'
+[0.854s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/zzs/chaptmy/chapt_ws/src/turtle_my_interfaces'
+[0.863s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.864s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.864s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces -- -j2 -l2
+[2.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces -- -j2 -l2
+[2.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces
+[2.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_my_interfaces)
+[2.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chaptmy/chapt_ws/build/turtle_my_interfaces
+[2.309s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces' for CMake module files
+[2.310s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces' for CMake config files
+[2.310s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_interfaces', 'cmake_prefix_path')
+[2.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/cmake_prefix_path.ps1'
+[2.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/cmake_prefix_path.dsv'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/cmake_prefix_path.sh'
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib'
+[2.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_interfaces', 'ld_library_path_lib')
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/ld_library_path_lib.ps1'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/ld_library_path_lib.dsv'
+[2.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/ld_library_path_lib.sh'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/bin'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/pkgconfig/turtle_my_interfaces.pc'
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages'
+[2.318s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_interfaces', 'pythonpath')
+[2.318s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/pythonpath.ps1'
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/pythonpath.dsv'
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/pythonpath.sh'
+[2.321s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/bin'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.ps1'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.dsv'
+[2.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.sh'
+[2.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.bash'
+[2.326s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.zsh'
+[2.327s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/colcon-core/packages/turtle_my_interfaces)
+[2.328s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_my_interfaces)
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces' for CMake module files
+[2.329s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces' for CMake config files
+[2.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_interfaces', 'cmake_prefix_path')
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/cmake_prefix_path.ps1'
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/cmake_prefix_path.dsv'
+[2.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/cmake_prefix_path.sh'
+[2.331s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib'
+[2.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_interfaces', 'ld_library_path_lib')
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/ld_library_path_lib.ps1'
+[2.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/ld_library_path_lib.dsv'
+[2.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/ld_library_path_lib.sh'
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/bin'
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/pkgconfig/turtle_my_interfaces.pc'
+[2.334s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages'
+[2.334s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_interfaces', 'pythonpath')
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/pythonpath.ps1'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/pythonpath.dsv'
+[2.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/hook/pythonpath.sh'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/bin'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.ps1'
+[2.337s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.dsv'
+[2.338s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.sh'
+[2.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.bash'
+[2.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/turtle_my_interfaces/package.zsh'
+[2.340s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/share/colcon-core/packages/turtle_my_interfaces)
+[2.342s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/zzs/chaptmy/chapt_ws/src/turtle_my_service' with build type 'ament_python'
+[2.343s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_service', 'ament_prefix_path')
+[2.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/hook/ament_prefix_path.ps1'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/hook/ament_prefix_path.dsv'
+[2.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/hook/ament_prefix_path.sh'
+[2.345s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.345s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.604s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/zzs/chaptmy/chapt_ws/src/turtle_my_service'
+[2.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.612s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: rotate, upload, extract_messages, update_catalog, saveopts, install_data, test, setopt, install, bdist_dumb, install_egg_info, build_clib, init_catalog, register, egg_info, upload_docs, check, build_scripts, build, bdist, compile_catalog, develop, clean, sdist, build_py, install_lib, dist_info, alias, easy_install, symlink_data, editable_wheel, install_scripts, bdist_rpm, install_headers, bdist_wheel, bdist_egg, build_ext
+[3.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/zzs/chaptmy/chapt_ws/src/turtle_my_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chaptmy/chapt_ws/build/turtle_my_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/lib/python3.12/site-packages:/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_my_service build --build-base /home/zzs/chaptmy/chapt_ws/build/turtle_my_service/build install --record /home/zzs/chaptmy/chapt_ws/build/turtle_my_service/install.log --install-scripts $base/lib/turtle_my_service --single-version-externally-managed install_data
+[4.150s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service' for CMake module files
+[4.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/zzs/chaptmy/chapt_ws/src/turtle_my_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chaptmy/chapt_ws/build/turtle_my_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/lib/python3.12/site-packages:/home/zzs/chaptmy/chapt_ws/install/turtle_my_interfaces/lib/python3.12/site-packages:/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_my_service build --build-base /home/zzs/chaptmy/chapt_ws/build/turtle_my_service/build install --record /home/zzs/chaptmy/chapt_ws/build/turtle_my_service/install.log --install-scripts $base/lib/turtle_my_service --single-version-externally-managed install_data
+[4.152s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service' for CMake config files
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/lib'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/bin'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/lib/pkgconfig/turtle_my_service.pc'
+[4.156s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/lib/python3.12/site-packages'
+[4.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_my_service', 'pythonpath')
+[4.157s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/hook/pythonpath.ps1'
+[4.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/hook/pythonpath.dsv'
+[4.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/hook/pythonpath.sh'
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/bin'
+[4.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_my_service)
+[4.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/package.ps1'
+[4.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/package.dsv'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/package.sh'
+[4.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/package.bash'
+[4.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/turtle_my_service/package.zsh'
+[4.164s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/zzs/chaptmy/chapt_ws/install/turtle_my_service/share/colcon-core/packages/turtle_my_service)
+[4.164s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.165s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.165s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.183s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.183s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.213s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chaptmy/chapt_ws/install/local_setup.ps1'
+[4.215s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzs/chaptmy/chapt_ws/install/_local_setup_util_ps1.py'
+[4.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chaptmy/chapt_ws/install/setup.ps1'
+[4.219s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chaptmy/chapt_ws/install/local_setup.sh'
+[4.220s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/zzs/chaptmy/chapt_ws/install/_local_setup_util_sh.py'
+[4.220s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chaptmy/chapt_ws/install/setup.sh'
+[4.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chaptmy/chapt_ws/install/local_setup.bash'
+[4.224s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chaptmy/chapt_ws/install/setup.bash'
+[4.225s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/zzs/chaptmy/chapt_ws/install/local_setup.zsh'
+[4.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/zzs/chaptmy/chapt_ws/install/setup.zsh'

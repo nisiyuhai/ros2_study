@@ -1,0 +1,38 @@
+[1.791s] Invoking command in '/home/zzs/chapt3/topic_practice_ws/src/status_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/zzs/chapt3/topic_practice_ws/build/status_publisher/install.log --install-scripts $base/lib/status_publisher --single-version-externally-managed install_data
+[2.235s] running egg_info
+[2.237s] creating ../../build/status_publisher/status_publisher.egg-info
+[2.370s] writing ../../build/status_publisher/status_publisher.egg-info/PKG-INFO
+[2.371s] writing dependency_links to ../../build/status_publisher/status_publisher.egg-info/dependency_links.txt
+[2.371s] writing entry points to ../../build/status_publisher/status_publisher.egg-info/entry_points.txt
+[2.371s] writing requirements to ../../build/status_publisher/status_publisher.egg-info/requires.txt
+[2.371s] writing top-level names to ../../build/status_publisher/status_publisher.egg-info/top_level.txt
+[2.375s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[2.553s] reading manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[2.553s] adding license file 'LICENSE'
+[2.553s] writing manifest file '../../build/status_publisher/status_publisher.egg-info/SOURCES.txt'
+[2.554s] running build
+[2.556s] running build_py
+[2.559s] creating /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build
+[2.559s] creating /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build/lib
+[2.559s] creating /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[2.560s] copying status_publisher/__init__.py -> /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[2.560s] copying status_publisher/sys_status_pub.py -> /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher
+[2.560s] running install
+[2.566s] running install_lib
+[2.643s] creating /home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[2.644s] copying /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/__init__.py -> /home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[2.644s] copying /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build/lib/status_publisher/sys_status_pub.py -> /home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher
+[2.647s] byte-compiling /home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/__init__.py to __init__.cpython-312.pyc
+[2.647s] byte-compiling /home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher/sys_status_pub.py to sys_status_pub.cpython-312.pyc
+[2.647s] running install_data
+[2.647s] creating /home/zzs/chapt3/topic_practice_ws/install/status_publisher/share/ament_index
+[2.647s] creating /home/zzs/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index
+[2.647s] creating /home/zzs/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[2.651s] copying resource/status_publisher -> /home/zzs/chapt3/topic_practice_ws/install/status_publisher/share/ament_index/resource_index/packages
+[2.651s] copying package.xml -> /home/zzs/chapt3/topic_practice_ws/install/status_publisher/share/status_publisher
+[2.651s] running install_egg_info
+[2.745s] Copying ../../build/status_publisher/status_publisher.egg-info to /home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages/status_publisher-0.0.0-py3.12.egg-info
+[2.751s] running install_scripts
+[3.096s] Installing sys_status_pub script to /home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/status_publisher
+[3.096s] writing list of installed files to '/home/zzs/chapt3/topic_practice_ws/build/status_publisher/install.log'
+[3.251s] Invoked command in '/home/zzs/chapt3/topic_practice_ws/src/status_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/zzs/chapt3/topic_practice_ws/build/status_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/chapt3/topic_practice_ws/install/status_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/status_publisher build --build-base /home/zzs/chapt3/topic_practice_ws/build/status_publisher/build install --record /home/zzs/chapt3/topic_practice_ws/build/status_publisher/install.log --install-scripts $base/lib/status_publisher --single-version-externally-managed install_data

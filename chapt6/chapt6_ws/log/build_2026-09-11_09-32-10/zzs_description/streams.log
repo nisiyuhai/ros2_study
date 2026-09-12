@@ -1,0 +1,45 @@
+[0.078s] Invoking command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt6/chapt6_ws/build/zzs_description -- -j2 -l2
+[0.618s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.332s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.977s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.977s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.984s] -- Added test 'lint_cmake' to check CMake code style
+[2.984s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.989s] -- Added test 'xmllint' to check XML markup files
+[3.001s] -- Configuring done (2.4s)
+[3.039s] -- Generating done (0.0s)
+[3.040s] -- Build files have been written to: /home/zzs/chapt6/chapt6_ws/build/zzs_description
+[3.128s] Invoked command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/zzs/chapt6/chapt6_ws/build/zzs_description -- -j2 -l2
+[3.159s] Invoking command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt6/chapt6_ws/build/zzs_description
+[3.182s] -- Install configuration: ""
+[3.184s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch
+[3.185s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch/gazebo_sim.launch.py
+[3.186s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/launch/display_robot.launch.py
+[3.187s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf
+[3.187s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.xacro
+[3.187s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.gv
+[3.187s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/plugins
+[3.188s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/plugins/gazebo_control_plugin.xacro
+[3.189s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.pdf
+[3.189s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor
+[3.190s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/imu.urdf.xacro
+[3.190s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/camera.urdf.xacro
+[3.193s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/sensor/laser.urdf.xacro
+[3.193s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/first_robot.urdf
+[3.193s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/common_intertial.xacro
+[3.193s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator
+[3.194s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator/wheel.urdf.xacro
+[3.196s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/actuator/caster.urdf.xacro
+[3.198s] -- Installing: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/robot.urdf.xacro
+[3.199s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/urdf/base.urdf.xacro
+[3.199s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/config
+[3.199s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/config/display_robot_model.rviz
+[3.202s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/world
+[3.202s] -- Up-to-date: /home/zzs/chapt6/chapt6_ws/install/zzs_description/share/zzs_description/world/world1.sdf
+[3.202s] [31mCMake Error at cmake_install.cmake:46 (file):
+[3.202s]   file INSTALL cannot find
+[3.202s]   "/home/zzs/chapt6/chapt6_ws/src/zzs_description/plugins": No such file or
+[3.202s]   directory.
+[3.203s] 
+[3.203s] [0m
+[3.204s] Invoked command in '/home/zzs/chapt6/chapt6_ws/build/zzs_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/zzs/chapt6/chapt6_ws/build/zzs_description
