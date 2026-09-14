@@ -1,0 +1,6 @@
+[console_scripts]
+get_robot_pose = zzs_application.get_robot_pose:main
+init_robot_pose = zzs_application.init_robot_pose:main
+nav_to_pose = zzs_application.nav_to_pose:main
+waypoint_flollower = zzs_application.waypoint_flollower:main
+

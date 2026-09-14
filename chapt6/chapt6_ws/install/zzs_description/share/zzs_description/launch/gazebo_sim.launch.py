@@ -1,114 +1,66 @@
-import os
-import subprocess
-
 import launch
 import launch_ros
 from ament_index_python.packages import get_package_share_directory
-from launch.actions import (
-    DeclareLaunchArgument,
-    IncludeLaunchDescription,
-    OpaqueFunction,
-    TimerAction,
-)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-from launch.substitutions import LaunchConfiguration
-
-
-class GazeboClassicLaunch(launch.LaunchDescription):
-    """Gazebo Classic 11 + ROS 2 Humble 启动文件。"""
-
-    def __init__(self, **kwargs):
-        super().__init__(**kwargs)
-
-        # ---------------- 路径准备 ----------------
-        self.urdf_package_path = get_package_share_directory('zzs_description')
-        self.gazebo_ros_pkg = get_package_share_directory('gazebo_ros')
-
-        self.default_xacro_path = os.path.join(
-            self.urdf_package_path, 'urdf', 'robot.urdf.xacro'
-        )
-        self.default_world_path = os.path.join(
-            self.urdf_package_path, 'world', 'c_room.world'   # ← 换成你的实际世界
-        )
-
-        # ---------------- Launch 参数 ----------------
-        self.model_arg = DeclareLaunchArgument(
-            name='model',
-            default_value=str(self.default_xacro_path),
-            description='模型文件路径（xacro 或 urdf）',
-        )
-        self.world_arg = DeclareLaunchArgument(
-            name='world',
-            default_value=str(self.default_world_path),
-            description='Gazebo Classic 世界文件路径',
-        )
-
-        # ---------------- 启动 Gazebo Classic ----------------
-        self.gazebo_launch = IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(
-                os.path.join(self.gazebo_ros_pkg, 'launch', 'gazebo.launch.py')
-            ),
-            launch_arguments={
-                'world': self.default_world_path,
-                'verbose': 'true',
-            }.items(),
-        )
-
-        # ---------------- 机器人节点（延迟 5 秒） ----------------
-        self.robot_nodes = OpaqueFunction(function=self._create_robot_nodes)
-
-        self.delayed_robot = TimerAction(
-            period=5.0,
-            actions=[self.robot_nodes],
-        )
-
-        self.add_action(self.model_arg)
-        self.add_action(self.world_arg)
-        self.add_action(self.gazebo_launch)
-        self.add_action(self.delayed_robot)
-
-    # ==================================================================
-    def _create_robot_nodes(self, context):
-        model_path = LaunchConfiguration('model').perform(context)
-        urdf_content = self._load_urdf(model_path)
-
-        robot_state_publisher = launch_ros.actions.Node(
-            package='robot_state_publisher',
-            executable='robot_state_publisher',
-            parameters=[{'robot_description': urdf_content}],
-            output='screen',
-        )
-
-        # ★ Gazebo Classic 用 gazebo_ros 的 spawn_entity.py
-        spawn_entity = launch_ros.actions.Node(
-            package='gazebo_ros',
-            executable='spawn_entity.py',
-            arguments=[
-                '-entity', 'zzs_robot',
-                '-topic', 'robot_description',
-                '-x', '0.0', '-y', '0.0', '-z', '0.15',
-            ],
-            output='screen',
-        )
-
-        return [robot_state_publisher, spawn_entity]
-
-    # ==================================================================
-    @staticmethod
-    def _load_urdf(model_path: str) -> str:
-        if model_path.endswith('.xacro'):
-            result = subprocess.run(
-                ['xacro', model_path],
-                capture_output=True,
-                text=True,
-            )
-            if result.returncode != 0:
-                raise RuntimeError(f'xacro 解析失败:\n{result.stderr}')
-            return result.stdout
-
-        with open(model_path, 'r') as f:
-            return f.read()
-
 
 def generate_launch_description():
-    return GazeboClassicLaunch()
+    robot_name_in_model = "zzs_robot"
+    urdf_tutorial_path = get_package_share_directory('zzs_description')
+    default_model_path = urdf_tutorial_path + '/urdf/robot.urdf.xacro'
+    default_world_path = urdf_tutorial_path + '/world/c_room.world'
+
+    action_declare_arg_mode_path = launch.actions.DeclareLaunchArgument(
+        name='model', default_value=str(default_model_path),
+        description='URDF 的绝对路径')
+
+    robot_description = launch_ros.parameter_descriptions.ParameterValue(
+        launch.substitutions.Command(
+            ['xacro ', launch.substitutions.LaunchConfiguration('model')]),
+        value_type=str)
+
+    robot_state_publisher_node = launch_ros.actions.Node(
+        package='robot_state_publisher',
+        executable='robot_state_publisher',
+        parameters=[{'robot_description': robot_description}]
+    )
+
+    launch_gazebo = launch.actions.IncludeLaunchDescription(
+        PythonLaunchDescriptionSource([get_package_share_directory(
+            'gazebo_ros'), '/launch', '/gazebo.launch.py']),
+        launch_arguments=[('world', default_world_path), ('verbose', 'true')]
+    )
+
+    spawn_entity_node = launch_ros.actions.Node(
+        package='gazebo_ros',
+        executable='spawn_entity.py',
+        arguments=['-topic', '/robot_description',
+                   '-entity', robot_name_in_model, ])
+
+    # 加载并激活 joint_state_broadcaster
+    load_joint_state_controller = launch.actions.ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active',
+             'robot_joint_state_broadcaster'],
+        output='screen'
+    )
+
+    # 加载并激活 diff_driver 控制器
+    load_robot_diff_drive_controller = launch.actions.ExecuteProcess(
+        cmd=['ros2', 'control', 'load_controller', '--set-state', 'active','robot_diff_drive_controller'], 
+        output='screen')
+
+    return launch.LaunchDescription([
+        action_declare_arg_mode_path,
+        robot_state_publisher_node,
+        launch_gazebo,
+        spawn_entity_node,
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=spawn_entity_node,
+                on_exit=[load_joint_state_controller],)
+        ),
+        launch.actions.RegisterEventHandler(
+                    event_handler=launch.event_handlers.OnProcessExit(
+                    target_action=spawn_entity_node,
+                    on_exit=[load_robot_diff_drive_controller],)
+        ),
+    ])

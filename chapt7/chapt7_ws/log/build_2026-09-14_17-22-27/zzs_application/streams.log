@@ -1,0 +1,26 @@
+[2.567s] Invoking command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/src/zzs_application': PYTHONPATH=/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zzs_application build --build-base /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build install --record /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/install.log --install-scripts $base/lib/zzs_application --single-version-externally-managed install_data
+[3.228s] running egg_info
+[3.228s] writing ../../build/zzs_application/zzs_application.egg-info/PKG-INFO
+[3.232s] writing dependency_links to ../../build/zzs_application/zzs_application.egg-info/dependency_links.txt
+[3.235s] writing entry points to ../../build/zzs_application/zzs_application.egg-info/entry_points.txt
+[3.238s] writing requirements to ../../build/zzs_application/zzs_application.egg-info/requires.txt
+[3.243s] writing top-level names to ../../build/zzs_application/zzs_application.egg-info/top_level.txt
+[3.255s] reading manifest file '../../build/zzs_application/zzs_application.egg-info/SOURCES.txt'
+[3.258s] adding license file 'LICENSE'
+[3.266s] writing manifest file '../../build/zzs_application/zzs_application.egg-info/SOURCES.txt'
+[3.266s] running build
+[3.266s] running build_py
+[3.266s] copying zzs_application/get_robot_pose.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application
+[3.269s] running install
+[3.269s] running install_lib
+[3.273s] copying /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application/get_robot_pose.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application
+[3.278s] byte-compiling /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[3.278s] running install_data
+[3.278s] running install_egg_info
+[3.284s] removing '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application-0.0.0-py3.10.egg-info' (and everything under it)
+[3.287s] Copying ../../build/zzs_application/zzs_application.egg-info to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application-0.0.0-py3.10.egg-info
+[3.291s] running install_scripts
+[3.336s] Installing get_robot_pose script to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/zzs_application
+[3.337s] Installing init_robot_pose script to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/zzs_application
+[3.338s] writing list of installed files to '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/install.log'
+[3.442s] Invoked command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/src/zzs_application' returned '0': PYTHONPATH=/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zzs_application build --build-base /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build install --record /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/install.log --install-scripts $base/lib/zzs_application --single-version-externally-managed install_data

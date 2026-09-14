@@ -1,0 +1,50 @@
+[0.670s] Invoking command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application:/opt/ros/humble /usr/bin/cmake --build /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description -- -j2 -l2
+[1.167s] Invoked command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application:/opt/ros/humble /usr/bin/cmake --build /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description -- -j2 -l2
+[1.246s] Invoking command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application:/opt/ros/humble /usr/bin/cmake --install /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description
+[1.316s] -- Install configuration: ""
+[1.316s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/launch
+[1.323s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/launch/display_robot.launch.py
+[1.323s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/launch/gazebo_sim.launch.py
+[1.323s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf
+[1.337s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/sensor
+[1.337s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/sensor/imu.urdf.xacro
+[1.337s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/sensor/camera.urdf.xacro
+[1.337s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/sensor/laser.urdf.xacro
+[1.337s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/first_robot.gv
+[1.337s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/actuator
+[1.339s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/actuator/wheel.urdf.xacro
+[1.339s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/actuator/caster.urdf.xacro
+[1.340s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/first_robot.xacro
+[1.340s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/first_robot.urdf
+[1.340s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/first_robot.pdf
+[1.340s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/plugins
+[1.342s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/plugins/robot_ros2_controller.xacro
+[1.342s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/plugins/gazebo_control_plugin.xacro
+[1.342s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/plugins/gazebo_sensor_plugin.xacro
+[1.343s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/robot.urdf.xacro
+[1.343s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/common_intertial.xacro
+[1.351s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/urdf/base.urdf.xacro
+[1.351s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/config
+[1.365s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/config/robot_ros2_controller.yaml
+[1.365s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/config/display_robot_model.rviz
+[1.365s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/world
+[1.369s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/world/room
+[1.369s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/world/room/model.sdf
+[1.369s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/world/room/model.config
+[1.369s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/world/c_room.world
+[1.371s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/ament_index/resource_index/package_run_dependencies/zzs_description
+[1.371s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/ament_index/resource_index/parent_prefix_path/zzs_description
+[1.373s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/environment/ament_prefix_path.sh
+[1.374s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/environment/ament_prefix_path.dsv
+[1.374s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/environment/path.sh
+[1.374s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/environment/path.dsv
+[1.374s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/local_setup.bash
+[1.374s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/local_setup.sh
+[1.374s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/local_setup.zsh
+[1.375s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/local_setup.dsv
+[1.376s] -- Installing: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/package.dsv
+[1.376s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/ament_index/resource_index/packages/zzs_description
+[1.378s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/cmake/zzs_descriptionConfig.cmake
+[1.378s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/cmake/zzs_descriptionConfig-version.cmake
+[1.379s] -- Up-to-date: /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_description/share/zzs_description/package.xml
+[1.387s] Invoked command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application:/opt/ros/humble /usr/bin/cmake --install /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_description

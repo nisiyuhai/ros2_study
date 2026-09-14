@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find zzs_description)/urdf/common_intertial.xacro"/>
+    <xacro:macro name="caster_xacro" params="caster_name xyz">
+        <!-- 机器人的IMU部件，惯性测量传感器 -->
+            <link name="${caster_name}_link">
+                <!-- 部件的外部描述 -->
+                <visual>
+                    <!-- 沿着自己几何中心的偏移和旋转量 -->
+                    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                    <!-- 几何形状 -->
+                    <geometry>
+                        <sphere radius="0.016"/>
+                    </geometry>
+                    <!-- 材质颜色 - 引用顶层定义的材质 -->
+                    <material name="yellow"/>
+                </visual>
+
+                <!-- ★ 新增：碰撞体，放在 link 内部 ★ -->
+                <collision>
+                    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+                    <geometry>
+                        <sphere radius="0.016"/>
+                    </geometry>
+                </collision>
+                <xacro:sphere_inertia m="0.05" r="0.016"/>
+            </link>
+
+        <joint name="${caster_name}_joint" type="fixed">
+            <origin xyz="${xyz}" rpy="0.0 0.0 0.0"/>
+            <parent link="base_link"/>
+            <child link="${caster_name}_link"/>
+        </joint>
+
+        <gazebo reference="${caster_name}_link">
+            <!-- 切向摩擦系数 -->
+            <mu1 value="0.0"/>
+            <!-- 法向摩擦系数 -->
+            <mu2 value="0.0"/>
+            <!-- 接触刚度系数 -->  
+            <kp value="1000000000.0"/>
+            <!-- 阻尼系数 -->
+            <kd value="1.0"/>
+        </gazebo>
+    </xacro:macro>
+    
+</robot>

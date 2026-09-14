@@ -1,0 +1,38 @@
+[1.430s] Invoking command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/src/zzs_application': PYTHONPATH=/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zzs_application build --build-base /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build install --record /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/install.log --install-scripts $base/lib/zzs_application --single-version-externally-managed install_data
+[1.661s] running egg_info
+[1.661s] creating ../../build/zzs_application/zzs_application.egg-info
+[1.661s] writing ../../build/zzs_application/zzs_application.egg-info/PKG-INFO
+[1.664s] writing dependency_links to ../../build/zzs_application/zzs_application.egg-info/dependency_links.txt
+[1.665s] writing entry points to ../../build/zzs_application/zzs_application.egg-info/entry_points.txt
+[1.665s] writing requirements to ../../build/zzs_application/zzs_application.egg-info/requires.txt
+[1.665s] writing top-level names to ../../build/zzs_application/zzs_application.egg-info/top_level.txt
+[1.665s] writing manifest file '../../build/zzs_application/zzs_application.egg-info/SOURCES.txt'
+[1.666s] reading manifest file '../../build/zzs_application/zzs_application.egg-info/SOURCES.txt'
+[1.667s] adding license file 'LICENSE'
+[1.668s] writing manifest file '../../build/zzs_application/zzs_application.egg-info/SOURCES.txt'
+[1.668s] running build
+[1.668s] running build_py
+[1.668s] creating /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build
+[1.670s] creating /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib
+[1.670s] creating /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application
+[1.671s] copying zzs_application/__init__.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application
+[1.671s] copying zzs_application/init_robot_pose.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application
+[1.671s] running install
+[1.671s] running install_lib
+[1.671s] creating /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application
+[1.671s] copying /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application/__init__.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application
+[1.671s] copying /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application/init_robot_pose.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application
+[1.671s] byte-compiling /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application/__init__.py to __init__.cpython-310.pyc
+[1.671s] byte-compiling /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[1.671s] running install_data
+[1.671s] creating /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/share/ament_index
+[1.671s] creating /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/share/ament_index/resource_index
+[1.672s] creating /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/share/ament_index/resource_index/packages
+[1.672s] copying resource/zzs_application -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/share/ament_index/resource_index/packages
+[1.672s] copying package.xml -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/share/zzs_application
+[1.672s] running install_egg_info
+[1.674s] Copying ../../build/zzs_application/zzs_application.egg-info to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application-0.0.0-py3.10.egg-info
+[1.674s] running install_scripts
+[1.697s] Installing init_robot_pose script to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/zzs_application
+[1.699s] writing list of installed files to '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/install.log'
+[1.732s] Invoked command in '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/src/zzs_application' returned '0': PYTHONPATH=/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/zzs_application build --build-base /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build install --record /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/install.log --install-scripts $base/lib/zzs_application --single-version-externally-managed install_data

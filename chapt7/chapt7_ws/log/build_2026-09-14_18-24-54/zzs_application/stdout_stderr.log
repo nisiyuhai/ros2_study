@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/zzs_application/zzs_application.egg-info/PKG-INFO
+writing dependency_links to ../../build/zzs_application/zzs_application.egg-info/dependency_links.txt
+writing entry points to ../../build/zzs_application/zzs_application.egg-info/entry_points.txt
+writing requirements to ../../build/zzs_application/zzs_application.egg-info/requires.txt
+writing top-level names to ../../build/zzs_application/zzs_application.egg-info/top_level.txt
+reading manifest file '../../build/zzs_application/zzs_application.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/zzs_application/zzs_application.egg-info/SOURCES.txt'
+running build
+running build_py
+copying zzs_application/waypoint_flollower.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application
+running install
+running install_lib
+copying /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/build/lib/zzs_application/waypoint_flollower.py -> /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application
+byte-compiling /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application/waypoint_flollower.py to waypoint_flollower.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/zzs_application/zzs_application.egg-info to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/python3.10/site-packages/zzs_application-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_robot_pose script to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/zzs_application
+Installing init_robot_pose script to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/zzs_application
+Installing nav_to_pose script to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/zzs_application
+Installing waypoint_flollower script to /home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/install/zzs_application/lib/zzs_application
+writing list of installed files to '/home/zzs/workspace/ros2/ros2_study/chapt7/chapt7_ws/build/zzs_application/install.log'
